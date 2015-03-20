@@ -19,7 +19,7 @@ describe('FeatureVector', function () {
 
     context('when no arguments are passed', function(){
       it('throws an error ', function () {
-        expect( function () { new FeatureVector( ) } ).to.throw( );
+        expect( function () { new FeatureVector( ) } ).to.throw( Error );
       });
     });
 
