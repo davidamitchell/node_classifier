@@ -1,0 +1,2420 @@
+[
+
+  {
+    "title": "\n      \n        thibauts\n        /\n        b-spline\n    ",
+    "link": "http://github.com/thibauts/b-spline",
+    "description": "\n        B-spline interpolation\n      ",
+    "meta": {
+      "starredOn": "Mar 27, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        facebook\n        /\n        react-native\n    ",
+    "link": "http://github.com/facebook/react-native",
+    "description": "\n        A framework for building native apps with React.\n      ",
+    "meta": {
+      "starredOn": "Mar 26, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        static\n    ",
+    "link": "http://github.com/lapwinglabs/static",
+    "description": "\n        Intentionally Static: This page will never change.\n      ",
+    "meta": {
+      "starredOn": "Mar 26, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        EvanMarkHopkins\n        /\n        duo-jsx\n    ",
+    "link": "http://github.com/EvanMarkHopkins/duo-jsx",
+    "description": "\n        A react-tools plugin for duo\n      ",
+    "meta": {
+      "starredOn": "Mar 25, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        google\n        /\n        bazel\n    ",
+    "link": "http://github.com/google/bazel",
+    "description": "\n        Correct, reproducible, and fast builds for everyone.\n      ",
+    "meta": {
+      "starredOn": "Mar 24, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        primer\n        /\n        primer\n    ",
+    "link": "http://github.com/primer/primer",
+    "description": "\n        The base coat of GitHub. Our internal CSS toolkit and guidelines.\n      ",
+    "meta": {
+      "starredOn": "Mar 24, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        hughsk\n        /\n        bezier\n    ",
+    "link": "http://github.com/hughsk/bezier",
+    "description": "\n        n-degree Bezier spline interpolation.\n      ",
+    "meta": {
+      "starredOn": "Mar 23, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        WhiteHouse\n        /\n        playbook\n    ",
+    "link": "http://github.com/WhiteHouse/playbook",
+    "description": "\n        The U.S. Digital Services Playbook\n      ",
+    "meta": {
+      "starredOn": "Mar 23, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        WhiteHouse\n        /\n        2016-budget-data\n    ",
+    "link": "http://github.com/WhiteHouse/2016-budget-data",
+    "description": "\n        The data behind the President's 2016 Budget\n      ",
+    "meta": {
+      "starredOn": "Mar 23, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        codesuki\n        /\n        react-d3-components\n    ",
+    "link": "http://github.com/codesuki/react-d3-components",
+    "description": "\n        D3 Components for React\n      ",
+    "meta": {
+      "starredOn": "Mar 23, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        wsargent\n        /\n        docker-cheat-sheet\n    ",
+    "link": "http://github.com/wsargent/docker-cheat-sheet",
+    "description": "\n        Docker Cheat Sheet\n      ",
+    "meta": {
+      "starredOn": "Mar 22, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rlaneve\n        /\n        dokku-link\n    ",
+    "link": "http://github.com/rlaneve/dokku-link",
+    "description": "\n        Basic docker link plugin for dokku (https://github.com/progrium/dokku)\n      ",
+    "meta": {
+      "starredOn": "Mar 22, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        LogicalSpark\n        /\n        docker-tikaserver\n    ",
+    "link": "http://github.com/LogicalSpark/docker-tikaserver",
+    "description": "\n        Apache Tika Server as a Docker Image\n      ",
+    "meta": {
+      "starredOn": "Mar 22, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        mattcg\n        /\n        node-tika\n    ",
+    "link": "http://github.com/mattcg/node-tika",
+    "description": "\n        Apache Tika bridge for Node.js. Text and metadata extraction, language detection and more.\n      ",
+    "meta": {
+      "starredOn": "Mar 22, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        veggiemonk\n        /\n        awesome-docker\n    ",
+    "link": "http://github.com/veggiemonk/awesome-docker",
+    "description": "\n        \n A curated list of Docker resources\n      ",
+    "meta": {
+      "starredOn": "Mar 21, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        mafintosh\n        /\n        airpaste\n    ",
+    "link": "http://github.com/mafintosh/airpaste",
+    "description": "\n        A 1-1 network pipe that auto discovers other peers using mdns\n      ",
+    "meta": {
+      "starredOn": "Mar 21, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lacona\n        /\n        lacona\n    ",
+    "link": "http://github.com/lacona/lacona",
+    "description": "\n        Language-agnostic Linguistic Parser in Javascript\n      ",
+    "meta": {
+      "starredOn": "Mar 21, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        brandonhorst\n        /\n        node-native-app\n    ",
+    "link": "http://github.com/brandonhorst/node-native-app",
+    "description": "\n        Node tool for building native apps on OSX\n      ",
+    "meta": {
+      "starredOn": "Mar 21, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Turfjs\n        /\n        turf\n    ",
+    "link": "http://github.com/Turfjs/turf",
+    "description": "\n        A modular geospatial engine written in JavaScript\n      ",
+    "meta": {
+      "starredOn": "Mar 20, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        x-ray-parse\n    ",
+    "link": "http://github.com/lapwinglabs/x-ray-parse",
+    "description": "\n        x-ray's selector parser.\n      ",
+    "meta": {
+      "starredOn": "Mar 20, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        x-ray-crawler\n    ",
+    "link": "http://github.com/lapwinglabs/x-ray-crawler",
+    "description": "\n        Friendly web crawler for x-ray\n      ",
+    "meta": {
+      "starredOn": "Mar 20, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        ebeigarts\n        /\n        dokku-slack\n    ",
+    "link": "http://github.com/ebeigarts/dokku-slack",
+    "description": "\n        A plugin for Dokku that notifies Slack of deployments.\n      ",
+    "meta": {
+      "starredOn": "Mar 19, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        wilmoore\n        /\n        selectn\n    ",
+    "link": "http://github.com/wilmoore/selectn",
+    "description": "\n        Resolves deeply-nested object properties via dot or bracket-notation for Node.js and the browser.\n      ",
+    "meta": {
+      "starredOn": "Mar 19, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        MatthewMueller\n        /\n        enqueue\n    ",
+    "link": "http://github.com/MatthewMueller/enqueue",
+    "description": "\n        seamlessly queue up asynchronous function calls. supports concurrency and timeouts.\n      ",
+    "meta": {
+      "starredOn": "Mar 19, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Mashape\n        /\n        apiembed\n    ",
+    "link": "http://github.com/Mashape/apiembed",
+    "description": "\n        Embeddable API code snippets for your website, blog or API documentation\n      ",
+    "meta": {
+      "starredOn": "Mar 19, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        riccardoscalco\n        /\n        textures\n    ",
+    "link": "http://github.com/riccardoscalco/textures",
+    "description": "\n        Textures.js is a JavaScript library for creating SVG patterns\n      ",
+    "meta": {
+      "starredOn": "Mar 19, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        http-context\n    ",
+    "link": "http://github.com/lapwinglabs/http-context",
+    "description": "\n        High-level request & response object. Inspired by Koa's context.\n      ",
+    "meta": {
+      "starredOn": "Mar 18, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        http-outgoing\n    ",
+    "link": "http://github.com/lapwinglabs/http-outgoing",
+    "description": "\n        A pinned version of Node's internal Response object. Useful for proper mocking.\n      ",
+    "meta": {
+      "starredOn": "Mar 18, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        http-incoming\n    ",
+    "link": "http://github.com/lapwinglabs/http-incoming",
+    "description": "\n        A pinned version of Node's internal Request object. Useful for proper mocking\n      ",
+    "meta": {
+      "starredOn": "Mar 18, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        vinumeris\n        /\n        lighthouse\n    ",
+    "link": "http://github.com/vinumeris/lighthouse",
+    "description": "\n        Lighthouse: a peer to peer crowdfunding app that uses Bitcoin\n      ",
+    "meta": {
+      "starredOn": "Mar 17, 2015"
+    }
+  }
+
+,
+
+  {
+    "title": "\n      \n        billt2006\n        /\n        docker-btsync\n    ",
+    "link": "http://github.com/billt2006/docker-btsync",
+    "description": "\n        BitTorrent Sync Dockerfile\n      ",
+    "meta": {
+      "starredOn": "Mar 17, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        mafintosh\n        /\n        ssh-exec\n    ",
+    "link": "http://github.com/mafintosh/ssh-exec",
+    "description": "\n        Execute a script over ssh using Node.JS\n      ",
+    "meta": {
+      "starredOn": "Mar 17, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        gogits\n        /\n        gogs\n    ",
+    "link": "http://github.com/gogits/gogs",
+    "description": "\n        Gogs(Go Git Service) is a painless self-hosted Git Service.\n      ",
+    "meta": {
+      "starredOn": "Mar 17, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        tj\n        /\n        travel\n    ",
+    "link": "http://github.com/tj/travel",
+    "description": "\n        List of places to visit\n      ",
+    "meta": {
+      "starredOn": "Mar 17, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        patriciogonzalezvivo\n        /\n        thebookofshaders\n    ",
+    "link": "http://github.com/patriciogonzalezvivo/thebookofshaders",
+    "description": "\n        Step-by-step guide through the abstract and complex universe of Fragment Shaders.\n      ",
+    "meta": {
+      "starredOn": "Mar 17, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rauchg\n        /\n        ms.js\n    ",
+    "link": "http://github.com/rauchg/ms.js",
+    "description": "\n        Tiny milisecond conversion utility.\n      ",
+    "meta": {
+      "starredOn": "Mar 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        wankdanker\n        /\n        node-function-rate-limit\n    ",
+    "link": "http://github.com/wankdanker/node-function-rate-limit",
+    "description": "\n        Rate Limit any Function in node\n      ",
+    "meta": {
+      "starredOn": "Mar 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        google\n        /\n        physical-web\n    ",
+    "link": "http://github.com/google/physical-web",
+    "description": "\n        The Physical Web: walk up and use anything\n      ",
+    "meta": {
+      "starredOn": "Mar 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        google\n        /\n        end-to-end\n    ",
+    "link": "http://github.com/google/end-to-end",
+    "description": "\n        End-To-End is a Chrome extension that helps you encrypt, decrypt, digital sign, and verify signed messages within the browser using OpenPGP.\n      ",
+    "meta": {
+      "starredOn": "Mar 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        x-ray-select\n    ",
+    "link": "http://github.com/lapwinglabs/x-ray-select",
+    "description": "\n        The selection parser for x-ray. Aiming to bring structure to the web.\n      ",
+    "meta": {
+      "starredOn": "Mar 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        olivierlesnicki\n        /\n        express-x-ray\n    ",
+    "link": "http://github.com/olivierlesnicki/express-x-ray",
+    "description": "\n        A router level Express middleware that turns websites into structured APIs (powered by x-ray).\n      ",
+    "meta": {
+      "starredOn": "Mar 15, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        moklick\n        /\n        nodejs-stuff\n    ",
+    "link": "http://github.com/moklick/nodejs-stuff",
+    "description": "\n        Node.js libs I want to keep in mind.\n      ",
+    "meta": {
+      "starredOn": "Mar 15, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        WesleydeSouza\n        /\n        calendar-base\n    ",
+    "link": "http://github.com/WesleydeSouza/calendar-base",
+    "description": "\n        Base methods for generating calendars using JavaScript.\n      ",
+    "meta": {
+      "starredOn": "Mar 14, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        feross\n        /\n        mad-science-modules\n    ",
+    "link": "http://github.com/feross/mad-science-modules",
+    "description": "\n        Delightful npm packages that make you say \"wow, didn't know that was possible!\"\n      ",
+    "meta": {
+      "starredOn": "Mar 14, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        timoxley\n        /\n        linklocal\n    ",
+    "link": "http://github.com/timoxley/linklocal",
+    "description": "\n        Install local dependencies as symlinks.\n      ",
+    "meta": {
+      "starredOn": "Mar 13, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        molnarg\n        /\n        node-http2\n    ",
+    "link": "http://github.com/molnarg/node-http2",
+    "description": "\n        An HTTP/2 client and server implementation for node.js\n      ",
+    "meta": {
+      "starredOn": "Mar 12, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        buildpack-gitlab\n    ",
+    "link": "http://github.com/lapwinglabs/buildpack-gitlab",
+    "description": "\n        Dokku buildpack for GitLab\n      ",
+    "meta": {
+      "starredOn": "Mar 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Flolagale\n        /\n        mailin\n    ",
+    "link": "http://github.com/Flolagale/mailin",
+    "description": "\n        Artisanal inbound emails for every web app\n      ",
+    "meta": {
+      "starredOn": "Mar 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        fanatid\n        /\n        error-system\n    ",
+    "link": "http://github.com/fanatid/error-system",
+    "description": "\n        Your custom errors in your JavaScript code!\n      ",
+    "meta": {
+      "starredOn": "Mar 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rancherio\n        /\n        os\n    ",
+    "link": "http://github.com/rancherio/os",
+    "description": "\n        The easiest way to run Docker in production\n      ",
+    "meta": {
+      "starredOn": "Mar 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        100-ways-to-die\n    ",
+    "link": "http://github.com/lapwinglabs/100-ways-to-die",
+    "description": "\n        An exploration into zero-downtime node servers\n      ",
+    "meta": {
+      "starredOn": "Mar 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        koajs\n        /\n        bundle\n    ",
+    "link": "http://github.com/koajs/bundle",
+    "description": "\n        Generic asset pipeline with caching, etags, minification, gzipping and sourcemaps.\n      ",
+    "meta": {
+      "starredOn": "Mar 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        dyson\n        /\n        dokku-docker-options\n    ",
+    "link": "http://github.com/dyson/dokku-docker-options",
+    "description": "\n        Set docker options for dokku (https://github.com/progrium/dokku)\n      ",
+    "meta": {
+      "starredOn": "Mar 10, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        pheuter\n        /\n        essential-react\n    ",
+    "link": "http://github.com/pheuter/essential-react",
+    "description": "\n        A minimal skeleton for building testable React apps using ES6\n      ",
+    "meta": {
+      "starredOn": "Mar 9, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        jsdf\n        /\n        browserify-incremental\n    ",
+    "link": "http://github.com/jsdf/browserify-incremental",
+    "description": "\n        incremental rebuild for browserify\n      ",
+    "meta": {
+      "starredOn": "Mar 9, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        jed\n        /\n        sheet-down\n    ",
+    "link": "http://github.com/jed/sheet-down",
+    "description": "\n        A Google Spreadsheet implementation of leveldown\n      ",
+    "meta": {
+      "starredOn": "Mar 8, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        docker\n        /\n        machine\n    ",
+    "link": "http://github.com/docker/machine",
+    "description": "\n        Machine management for a container-centric world\n      ",
+    "meta": {
+      "starredOn": "Mar 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        jonschlinkert\n        /\n        is-glob\n    ",
+    "link": "http://github.com/jonschlinkert/is-glob",
+    "description": "\n        Returns `true` if the given string looks like a glob pattern.\n      ",
+    "meta": {
+      "starredOn": "Mar 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        trevnorris\n        /\n        reblaze\n    ",
+    "link": "http://github.com/trevnorris/reblaze",
+    "description": "\n        Rewrite your JS on the fly using JS\n      ",
+    "meta": {
+      "starredOn": "Mar 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rstacruz\n        /\n        unorphan\n    ",
+    "link": "http://github.com/rstacruz/unorphan",
+    "description": "\n        Removes text orphans\n      ",
+    "meta": {
+      "starredOn": "Mar 5, 2015"
+    }
+  }
+
+,
+
+  {
+    "title": "\n      \n        cbou\n        /\n        x-ray-request\n    ",
+    "link": "http://github.com/cbou/x-ray-request",
+    "description": "\n        request driver for x-ray.\n      ",
+    "meta": {
+      "starredOn": "Mar 5, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        seanmonstar\n        /\n        insist\n    ",
+    "link": "http://github.com/seanmonstar/insist",
+    "description": "\n        A drop-in replacement for `assert` with a better default message.\n      ",
+    "meta": {
+      "starredOn": "Mar 4, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        ryanmjacobs\n        /\n        c\n    ",
+    "link": "http://github.com/ryanmjacobs/c",
+    "description": "\n        Compile and execute C \"scripts\" in one go!\n      ",
+    "meta": {
+      "starredOn": "Mar 4, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        hunterloftis\n        /\n        throng\n    ",
+    "link": "http://github.com/hunterloftis/throng",
+    "description": "\n        A simple worker-manager for clustered apps\n      ",
+    "meta": {
+      "starredOn": "Mar 4, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        hunterloftis\n        /\n        nodevember-14\n    ",
+    "link": "http://github.com/hunterloftis/nodevember-14",
+    "meta": {
+      "starredOn": "Mar 4, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        jteeuwen\n        /\n        go-bindata\n    ",
+    "link": "http://github.com/jteeuwen/go-bindata",
+    "description": "\n        A small utility which generates Go code from any file. Useful for embedding binary data in a Go program.\n      ",
+    "meta": {
+      "starredOn": "Mar 4, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        clojure\n        /\n        clojure\n    ",
+    "link": "http://github.com/clojure/clojure",
+    "description": "\n        The Clojure programming language\n      ",
+    "meta": {
+      "starredOn": "Mar 4, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Automattic\n        /\n        cli-table\n    ",
+    "link": "http://github.com/Automattic/cli-table",
+    "description": "\n        Pretty unicode tables for the CLI with Node.JS\n      ",
+    "meta": {
+      "starredOn": "Mar 3, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        gliderlabs\n        /\n        registrator\n    ",
+    "link": "http://github.com/gliderlabs/registrator",
+    "description": "\n        Service registry bridge for Docker with pluggable adapters\n      ",
+    "meta": {
+      "starredOn": "Mar 3, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        goatslacker\n        /\n        iso\n    ",
+    "link": "http://github.com/goatslacker/iso",
+    "description": "\n        A helper class that allows you to hand off data from server to client.\n      ",
+    "meta": {
+      "starredOn": "Mar 3, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        FormidableLabs\n        /\n        radium\n    ",
+    "link": "http://github.com/FormidableLabs/radium",
+    "description": "\n        A toolchain for React component styling.\n      ",
+    "meta": {
+      "starredOn": "Mar 3, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        moklick\n        /\n        frontend-stuff\n    ",
+    "link": "http://github.com/moklick/frontend-stuff",
+    "description": "\n        A continuously expanded list of framework/libraries and tools I used/want to use when building things on the web. Mostly Javascript stuff.\n      ",
+    "meta": {
+      "starredOn": "Mar 3, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        maxwellito\n        /\n        vivus\n    ",
+    "link": "http://github.com/maxwellito/vivus",
+    "description": "\n        JavaScript library to make drawing animation on SVG\n      ",
+    "meta": {
+      "starredOn": "Mar 3, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        dshaw\n        /\n        replify\n    ",
+    "link": "http://github.com/dshaw/replify",
+    "description": "\n        Easily add a REPL to your Node.js app.\n      ",
+    "meta": {
+      "starredOn": "Mar 3, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        trentm\n        /\n        node-dashdash\n    ",
+    "link": "http://github.com/trentm/node-dashdash",
+    "description": "\n        A light, featureful and explicit option parsing library for node.js.\n      ",
+    "meta": {
+      "starredOn": "Mar 3, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Hardmath123\n        /\n        nearley\n    ",
+    "link": "http://github.com/Hardmath123/nearley",
+    "description": "\n        Simple, fast, powerful parsing for JavaScript\n      ",
+    "meta": {
+      "starredOn": "Mar 3, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        jackschaedler\n        /\n        circles-sines-signals\n    ",
+    "link": "http://github.com/jackschaedler/circles-sines-signals",
+    "description": "\n        A Compact Primer on Digital Signal Processing\n      ",
+    "meta": {
+      "starredOn": "Mar 3, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        joeybaker\n        /\n        remapify\n    ",
+    "link": "http://github.com/joeybaker/remapify",
+    "description": "\n        Alias directories for browserify\n      ",
+    "meta": {
+      "starredOn": "Mar 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        finnp\n        /\n        htmltable\n    ",
+    "link": "http://github.com/finnp/htmltable",
+    "description": "\n        Transform stream for objects to HTML tables in the browser\n      ",
+    "meta": {
+      "starredOn": "Mar 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        ws\n    ",
+    "link": "http://github.com/lapwinglabs/ws",
+    "description": "\n        Simple Pusher-like clone.\n      ",
+    "meta": {
+      "starredOn": "Mar 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        stuvio\n        /\n        sandbox\n    ",
+    "link": "http://github.com/stuvio/sandbox",
+    "description": "\n        A sandbox for artists to integrate generators with stuvio\n      ",
+    "meta": {
+      "starredOn": "Mar 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        soulwire\n        /\n        sketch.js\n    ",
+    "link": "http://github.com/soulwire/sketch.js",
+    "description": "\n        Cross-Platform JavaScript Creative Coding Framework\n      ",
+    "meta": {
+      "starredOn": "Mar 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        fent\n        /\n        node-ytdl\n    ",
+    "link": "http://github.com/fent/node-ytdl",
+    "description": "\n        Pure Javascript youtube video downloader.\n      ",
+    "meta": {
+      "starredOn": "Mar 1, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        kev\n    ",
+    "link": "http://github.com/lapwinglabs/kev",
+    "description": "\n        Plugin-based universal key-value storage API.\n      ",
+    "meta": {
+      "starredOn": "Mar 1, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        jebzter\n        /\n        react-browserify-bootstrap\n    ",
+    "link": "http://github.com/jebzter/react-browserify-bootstrap",
+    "description": "\n        React / browserify boilerplate\n      ",
+    "meta": {
+      "starredOn": "Feb 24, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        nicolashery\n        /\n        example-d3-react\n    ",
+    "link": "http://github.com/nicolashery/example-d3-react",
+    "description": "\n        Example D3.js + React integration\n      ",
+    "meta": {
+      "starredOn": "Feb 20, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        joewalnes\n        /\n        websocketd\n    ",
+    "link": "http://github.com/joewalnes/websocketd",
+    "description": "\n        Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets. \n      ",
+    "meta": {
+      "starredOn": "Feb 20, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        defunctzombie\n        /\n        npm-github\n    ",
+    "link": "http://github.com/defunctzombie/npm-github",
+    "description": "\n        npm registry proxy to github repositories\n      ",
+    "meta": {
+      "starredOn": "Feb 19, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        defunctzombie\n        /\n        localenv\n    ",
+    "link": "http://github.com/defunctzombie/localenv",
+    "description": "\n        load environment variables from .env files\n      ",
+    "meta": {
+      "starredOn": "Feb 19, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        hughsk\n        /\n        envify\n    ",
+    "link": "http://github.com/hughsk/envify",
+    "description": "\n        \n Selectively replace Node-style environment variables with plain strings.\n      ",
+    "meta": {
+      "starredOn": "Feb 19, 2015"
+    }
+  }
+
+,
+
+  {
+    "title": "\n      \n        tylergaw\n        /\n        js-osx-app-examples\n    ",
+    "link": "http://github.com/tylergaw/js-osx-app-examples",
+    "description": "\n        Example OS X applications written in JavaScript.\n      ",
+    "meta": {
+      "starredOn": "Feb 17, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        OptimalBits\n        /\n        bull\n    ",
+    "link": "http://github.com/OptimalBits/bull",
+    "description": "\n        A NodeJS persistent job and message queue based on Redis\n      ",
+    "meta": {
+      "starredOn": "Feb 17, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        msgpack\n        /\n        msgpack\n    ",
+    "link": "http://github.com/msgpack/msgpack",
+    "description": "\n        MessagePack is an extremely efficient object serialization library. It's like JSON, but very fast and small.\n      ",
+    "meta": {
+      "starredOn": "Feb 17, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        jonkemp\n        /\n        inline-css\n    ",
+    "link": "http://github.com/jonkemp/inline-css",
+    "description": "\n        Inline css into an html file.\n      ",
+    "meta": {
+      "starredOn": "Feb 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        alexmingoia\n        /\n        jsx-transform\n    ",
+    "link": "http://github.com/alexmingoia/jsx-transform",
+    "description": "\n        JSX transpiler. A standard and configurable implementation of JSX decoupled from React.\n      ",
+    "meta": {
+      "starredOn": "Feb 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        mattdesl\n        /\n        budo\n    ",
+    "link": "http://github.com/mattdesl/budo",
+    "description": "\n        \n a dev server for rapid prototyping\n      ",
+    "meta": {
+      "starredOn": "Feb 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        fb55\n        /\n        css-what\n    ",
+    "link": "http://github.com/fb55/css-what",
+    "description": "\n        a CSS selector parser\n      ",
+    "meta": {
+      "starredOn": "Feb 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        sdelements\n        /\n        lets-chat\n    ",
+    "link": "http://github.com/sdelements/lets-chat",
+    "description": "\n        Self-hosted chat app for small teams\n      ",
+    "meta": {
+      "starredOn": "Feb 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        azer\n        /\n        with-env\n    ",
+    "link": "http://github.com/azer/with-env",
+    "description": "\n        Read and apply .env file (if exists) in the working directory.\n      ",
+    "meta": {
+      "starredOn": "Feb 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Automattic\n        /\n        socket.io-emitter\n    ",
+    "link": "http://github.com/Automattic/socket.io-emitter",
+    "meta": {
+      "starredOn": "Feb 13, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        pusher\n        /\n        pusher-realtime-reddit-demo\n    ",
+    "link": "http://github.com/pusher/pusher-realtime-reddit-demo",
+    "description": "\n        Demo of the Realtime Reddit API powered by Pusher\n      ",
+    "meta": {
+      "starredOn": "Feb 13, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rauchg\n        /\n        clif\n    ",
+    "link": "http://github.com/rauchg/clif",
+    "meta": {
+      "starredOn": "Feb 13, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        wearefractal\n        /\n        react-responsive\n    ",
+    "link": "http://github.com/wearefractal/react-responsive",
+    "description": "\n        Media queries in react for responsive design\n      ",
+    "meta": {
+      "starredOn": "Feb 12, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        teux\n        /\n        webpack-koa-middleware\n    ",
+    "link": "http://github.com/teux/webpack-koa-middleware",
+    "description": "\n        Webpack koa middleware with HMR support\n      ",
+    "meta": {
+      "starredOn": "Feb 12, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        nicolaskruchten\n        /\n        pivottable\n    ",
+    "link": "http://github.com/nicolaskruchten/pivottable",
+    "description": "\n        Javascript Pivot Table (aka Pivot Grid, Pivot Chart, Cross-Tab) implementation with drag'n'drop.\n      ",
+    "meta": {
+      "starredOn": "Feb 12, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        indutny\n        /\n        sticky-session\n    ",
+    "link": "http://github.com/indutny/sticky-session",
+    "description": "\n        Sticky session balancer based on a `cluster` module\n      ",
+    "meta": {
+      "starredOn": "Feb 12, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        spikebrehm\n        /\n        isomorphic-tutorial\n    ",
+    "link": "http://github.com/spikebrehm/isomorphic-tutorial",
+    "description": "\n        Tutorial app to demonstrate isomorphic JavaScript concepts.\n      ",
+    "meta": {
+      "starredOn": "Feb 12, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        cayasso\n        /\n        cacheman\n    ",
+    "link": "http://github.com/cayasso/cacheman",
+    "description": "\n        Small and efficient cache provider for Node.JS with In-memory, File, Redis and MongoDB engines\n      ",
+    "meta": {
+      "starredOn": "Feb 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        johntron\n        /\n        superagent-no-cache\n    ",
+    "link": "http://github.com/johntron/superagent-no-cache",
+    "description": "\n        Plugin for visionmedia/superagent that adds headers to all requests that prevents caching.\n      ",
+    "meta": {
+      "starredOn": "Feb 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        progrium\n        /\n        plugn\n    ",
+    "link": "http://github.com/progrium/plugn",
+    "meta": {
+      "starredOn": "Feb 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Flipboard\n        /\n        react-canvas\n    ",
+    "link": "http://github.com/Flipboard/react-canvas",
+    "description": "\n        High performance <canvas> rendering for React components\n      ",
+    "meta": {
+      "starredOn": "Feb 10, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        TooTallNate\n        /\n        pcre-to-regexp\n    ",
+    "link": "http://github.com/TooTallNate/pcre-to-regexp",
+    "description": "\n        Converts PCRE regexp strings to JavaScript RegExp instances\n      ",
+    "meta": {
+      "starredOn": "Feb 10, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        diffsky\n        /\n        chromedotfiles\n    ",
+    "link": "http://github.com/diffsky/chromedotfiles",
+    "description": "\n        inject ~/.chromedotfiles/<hostname>.{js,css} into chrome tabs\n      ",
+    "meta": {
+      "starredOn": "Feb 9, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        irvinebroque\n        /\n        isomorphic-hot-loader\n    ",
+    "link": "http://github.com/irvinebroque/isomorphic-hot-loader",
+    "description": "\n        An actively maintained starter project for building isomorphic web apps with React.js\n      ",
+    "meta": {
+      "starredOn": "Feb 9, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        arnauddri\n        /\n        algorithms\n    ",
+    "link": "http://github.com/arnauddri/algorithms",
+    "description": "\n        Algorithms & Data Structures in Go\n      ",
+    "meta": {
+      "starredOn": "Feb 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        arasatasaygin\n        /\n        is.js\n    ",
+    "link": "http://github.com/arasatasaygin/is.js",
+    "description": "\n        Micro check library\n      ",
+    "meta": {
+      "starredOn": "Feb 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        ttezel\n        /\n        twit\n    ",
+    "link": "http://github.com/ttezel/twit",
+    "description": "\n        Twitter API Client for node (REST & Streaming API)\n      ",
+    "meta": {
+      "starredOn": "Feb 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        nathanpeck\n        /\n        clui\n    ",
+    "link": "http://github.com/nathanpeck/clui",
+    "description": "\n        Command Line UI toolkit for Node.js\n      ",
+    "meta": {
+      "starredOn": "Feb 5, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        TooTallNate\n        /\n        keypress\n    ",
+    "link": "http://github.com/TooTallNate/keypress",
+    "description": "\n        Make any Node ReadableStream emit \"keypress\" events\n      ",
+    "meta": {
+      "starredOn": "Feb 5, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        TooTallNate\n        /\n        superagent-proxy\n    ",
+    "link": "http://github.com/TooTallNate/superagent-proxy",
+    "description": "\n        `Request#proxy(uri)` superagent extension\n      ",
+    "meta": {
+      "starredOn": "Feb 5, 2015"
+    }
+  }
+
+,
+
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        x-ray-phantom\n    ",
+    "link": "http://github.com/lapwinglabs/x-ray-phantom",
+    "description": "\n        phantom driver for x-ray.\n      ",
+    "meta": {
+      "starredOn": "Feb 5, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rtfeldman\n        /\n        seamless-immutable\n    ",
+    "link": "http://github.com/rtfeldman/seamless-immutable",
+    "description": "\n        Immutable data structures for JavaScript which are backwards-compatible with normal JS Arrays and Objects.\n      ",
+    "meta": {
+      "starredOn": "Feb 5, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        x-ray\n    ",
+    "link": "http://github.com/lapwinglabs/x-ray",
+    "description": "\n        The next web scraper. See through the <html> noise.\n      ",
+    "meta": {
+      "starredOn": "Feb 5, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        mattdesl\n        /\n        wtch\n    ",
+    "link": "http://github.com/mattdesl/wtch",
+    "description": "\n        \n small livereload utility for rapid prototyping\n      ",
+    "meta": {
+      "starredOn": "Feb 4, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        MatthewMueller\n        /\n        subs\n    ",
+    "link": "http://github.com/MatthewMueller/subs",
+    "description": "\n        tiny string substitution\n      ",
+    "meta": {
+      "starredOn": "Feb 4, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rstacruz\n        /\n        ghub\n    ",
+    "link": "http://github.com/rstacruz/ghub",
+    "description": "\n        Open this project in github\n      ",
+    "meta": {
+      "starredOn": "Feb 4, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        mikesall\n        /\n        charted\n    ",
+    "link": "http://github.com/mikesall/charted",
+    "description": "\n        A charting tool that produces automatic, shareable charts from any data file\n      ",
+    "meta": {
+      "starredOn": "Feb 4, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        component\n        /\n        format-parser\n    ",
+    "link": "http://github.com/component/format-parser",
+    "description": "\n        Declarative template engine format string parser (\"created_at | date:'%Y/%M/%d'\" etc)\n      ",
+    "meta": {
+      "starredOn": "Feb 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rbyte\n        /\n        Vogo\n    ",
+    "link": "http://github.com/rbyte/Vogo",
+    "description": "\n        Direct Manipulation of Turtle Graphics\n      ",
+    "meta": {
+      "starredOn": "Feb 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        cdglabs\n        /\n        Shadershop\n    ",
+    "link": "http://github.com/cdglabs/Shadershop",
+    "meta": {
+      "starredOn": "Feb 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        callemall\n        /\n        material-ui\n    ",
+    "link": "http://github.com/callemall/material-ui",
+    "description": "\n        A CSS Framework and a Set of React Components that Implement Google's Material Design.\n      ",
+    "meta": {
+      "starredOn": "Feb 1, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        insin\n        /\n        react-hn\n    ",
+    "link": "http://github.com/insin/react-hn",
+    "description": "\n        React-powered Hacker News client\n      ",
+    "meta": {
+      "starredOn": "Feb 1, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        js-next\n        /\n        react-style\n    ",
+    "link": "http://github.com/js-next/react-style",
+    "description": "\n        Maintainable styling for React.js components\n      ",
+    "meta": {
+      "starredOn": "Jan 31, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        pillarjs\n        /\n        understanding-csrf\n    ",
+    "link": "http://github.com/pillarjs/understanding-csrf",
+    "description": "\n        What are CSRF tokens and how do they work?\n      ",
+    "meta": {
+      "starredOn": "Jan 31, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        typpo\n        /\n        textbelt\n    ",
+    "link": "http://github.com/typpo/textbelt",
+    "description": "\n        Free outgoing SMS API\n      ",
+    "meta": {
+      "starredOn": "Jan 31, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        ubolonton\n        /\n        js-csp\n    ",
+    "link": "http://github.com/ubolonton/js-csp",
+    "description": "\n        CSP channels for Javascript (like Clojurescript's core.async, or Go)\n      ",
+    "meta": {
+      "starredOn": "Jan 31, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        adrian-budau\n        /\n        easy-motion\n    ",
+    "link": "http://github.com/adrian-budau/easy-motion",
+    "description": "\n        Easy Motion for Atom IDE\n      ",
+    "meta": {
+      "starredOn": "Jan 29, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        thoughtbot\n        /\n        til\n    ",
+    "link": "http://github.com/thoughtbot/til",
+    "description": "\n        Today I Learned\n      ",
+    "meta": {
+      "starredOn": "Jan 29, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        atom\n        /\n        highlights\n    ",
+    "link": "http://github.com/atom/highlights",
+    "description": "\n        Syntax highlighter\n      ",
+    "meta": {
+      "starredOn": "Jan 29, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        etsy\n        /\n        Hound\n    ",
+    "link": "http://github.com/etsy/Hound",
+    "description": "\n        Lightning fast code searching made easy\n      ",
+    "meta": {
+      "starredOn": "Jan 29, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        vesln\n        /\n        nixt\n    ",
+    "link": "http://github.com/vesln/nixt",
+    "description": "\n        Simple and elegant end-to-end testing for command-line apps\n      ",
+    "meta": {
+      "starredOn": "Jan 29, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Microsoft\n        /\n        TypeScript\n    ",
+    "link": "http://github.com/Microsoft/TypeScript",
+    "description": "\n        TypeScript is a superset of JavaScript that compiles to clean JavaScript output.\n      ",
+    "meta": {
+      "starredOn": "Jan 29, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        tadija\n        /\n        AEIconizer\n    ",
+    "link": "http://github.com/tadija/AEIconizer",
+    "description": "\n        Plugin for Bohemian Coding Sketch app\n      ",
+    "meta": {
+      "starredOn": "Jan 29, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        ccgus\n        /\n        CocoaScript\n    ",
+    "link": "http://github.com/ccgus/CocoaScript",
+    "description": "\n        JavaScript + the Cocoa frameworks, and then ObjC brackets show up to party as well.\n      ",
+    "meta": {
+      "starredOn": "Jan 29, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        dunckr\n        /\n        sketch-subtlepatterns\n    ",
+    "link": "http://github.com/dunckr/sketch-subtlepatterns",
+    "description": "\n        \n Import subtle patterns as shape fills in Sketch\n      ",
+    "meta": {
+      "starredOn": "Jan 29, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        mumble-voip\n        /\n        mumble\n    ",
+    "link": "http://github.com/mumble-voip/mumble",
+    "description": "\n        Mumble VoIP Client/Server\n      ",
+    "meta": {
+      "starredOn": "Jan 28, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        feross\n        /\n        standard\n    ",
+    "link": "http://github.com/feross/standard",
+    "description": "\n        JavaScript Standard Style — One Style to Rule Them All\n      ",
+    "meta": {
+      "starredOn": "Jan 28, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Stamplay\n        /\n        stamplay-stackoverflow\n    ",
+    "link": "http://github.com/Stamplay/stamplay-stackoverflow",
+    "description": "\n        Building Stack Overflow with AngularJS\n      ",
+    "meta": {
+      "starredOn": "Jan 28, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        icecrime\n        /\n        docker-mon\n    ",
+    "link": "http://github.com/icecrime/docker-mon",
+    "description": "\n        Console-based Docker monitoring\n      ",
+    "meta": {
+      "starredOn": "Jan 27, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        typicode\n        /\n        json-server\n    ",
+    "link": "http://github.com/typicode/json-server",
+    "description": "\n        Get a full fake REST API with zero coding in less than 30 seconds (seriously)\n      ",
+    "meta": {
+      "starredOn": "Jan 27, 2015"
+    }
+  }
+
+,
+
+  {
+    "title": "\n      \n        netvarun\n        /\n        docket\n    ",
+    "link": "http://github.com/netvarun/docket",
+    "description": "\n        Docket - Custom docker registry that allows for lightning fast deploys through bittorrent\n      ",
+    "meta": {
+      "starredOn": "Jan 27, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rauchg\n        /\n        slackin\n    ",
+    "link": "http://github.com/rauchg/slackin",
+    "description": "\n        Public Slack organizations made easy\n      ",
+    "meta": {
+      "starredOn": "Jan 27, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        yurt\n    ",
+    "link": "http://github.com/lapwinglabs/yurt",
+    "description": "\n        Yurt: an Ideal Database Client (WIP)\n      ",
+    "meta": {
+      "starredOn": "Jan 26, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        bmcmahen\n        /\n        react-wysiwyg\n    ",
+    "link": "http://github.com/bmcmahen/react-wysiwyg",
+    "description": "\n        enable limited interaction with a content-editable element, useful for in-place, wysiwyg editing\n      ",
+    "meta": {
+      "starredOn": "Jan 25, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        mentum\n        /\n        lambdaws\n    ",
+    "link": "http://github.com/mentum/lambdaws",
+    "description": "\n        Deploy, run and get results from Amazon AWS Lambda in a breeze\n      ",
+    "meta": {
+      "starredOn": "Jan 24, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        russss\n        /\n        Herd\n    ",
+    "link": "http://github.com/russss/Herd",
+    "description": "\n        A single-command bittorrent distribution system, based on Twitter's Murder\n      ",
+    "meta": {
+      "starredOn": "Jan 24, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Jam3\n        /\n        jam3-testing-tools\n    ",
+    "link": "http://github.com/Jam3/jam3-testing-tools",
+    "description": "\n        a brief intro to testing tools\n      ",
+    "meta": {
+      "starredOn": "Jan 24, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        muut\n        /\n        riotjs\n    ",
+    "link": "http://github.com/muut/riotjs",
+    "description": "\n        A React- like, 3.5KB user interface library\n      ",
+    "meta": {
+      "starredOn": "Jan 23, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        mbostock\n        /\n        dedom\n    ",
+    "link": "http://github.com/mbostock/dedom",
+    "description": "\n        A partial implementation of the W3C DOM API on top of an HTML5 parser and serializer.\n      ",
+    "meta": {
+      "starredOn": "Jan 23, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        MatthewMueller\n        /\n        cursors\n    ",
+    "link": "http://github.com/MatthewMueller/cursors",
+    "description": "\n        Collection of Mac's native cursor elements\n      ",
+    "meta": {
+      "starredOn": "Jan 23, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        mmcgrana\n        /\n        services-engineering\n    ",
+    "link": "http://github.com/mmcgrana/services-engineering",
+    "description": "\n        A reading list for services engineering, with a focus on cloud infrastructure services\n      ",
+    "meta": {
+      "starredOn": "Jan 23, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        yaronn\n        /\n        blessed-contrib\n    ",
+    "link": "http://github.com/yaronn/blessed-contrib",
+    "description": "\n        Build terminal dashboards using ascii/ansi art and javascript\n      ",
+    "meta": {
+      "starredOn": "Jan 22, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        paulirish\n        /\n        memory-stats.js\n    ",
+    "link": "http://github.com/paulirish/memory-stats.js",
+    "description": "\n        minimal monitor for JS Heap Size via performance.memory\n      ",
+    "meta": {
+      "starredOn": "Jan 21, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        jhollingworth\n        /\n        marty\n    ",
+    "link": "http://github.com/jhollingworth/marty",
+    "description": "\n        A Javascript library for state management in React applications\n      ",
+    "meta": {
+      "starredOn": "Jan 21, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        stackgl\n        /\n        contributing\n    ",
+    "link": "http://github.com/stackgl/contributing",
+    "meta": {
+      "starredOn": "Jan 21, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        mikolalysenko\n        /\n        box-intersect\n    ",
+    "link": "http://github.com/mikolalysenko/box-intersect",
+    "description": "\n        Any dimensional box intersection\n      ",
+    "meta": {
+      "starredOn": "Jan 21, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        gorhill\n        /\n        uBlock\n    ",
+    "link": "http://github.com/gorhill/uBlock",
+    "description": "\n        uBlock - An efficient blocker for Chromium, Firefox, and Safari. Fast and lean.\n      ",
+    "meta": {
+      "starredOn": "Jan 21, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        alex\n        /\n        what-happens-when\n    ",
+    "link": "http://github.com/alex/what-happens-when",
+    "description": "\n        An attempt to answer the age old interview question \"What happens when you type google.com into your browser and press enter?\"\n      ",
+    "meta": {
+      "starredOn": "Jan 20, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        seenaburns\n        /\n        dex-ui\n    ",
+    "link": "http://github.com/seenaburns/dex-ui",
+    "description": "\n        A science fiction desktop running on Linux. Awesome.\n      ",
+    "meta": {
+      "starredOn": "Jan 20, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        segmentio\n        /\n        mongo-key-escape\n    ",
+    "link": "http://github.com/segmentio/mongo-key-escape",
+    "description": "\n        Escape MongoDB keys for characters . and $\n      ",
+    "meta": {
+      "starredOn": "Jan 20, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        philipwalton\n        /\n        flexbugs\n    ",
+    "link": "http://github.com/philipwalton/flexbugs",
+    "description": "\n        A community-curated list of flexbox issues and cross-browser workarounds for them.\n      ",
+    "meta": {
+      "starredOn": "Jan 20, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rxin\n        /\n        db-readings\n    ",
+    "link": "http://github.com/rxin/db-readings",
+    "description": "\n        Readings in Databases\n      ",
+    "meta": {
+      "starredOn": "Jan 19, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        catch-stdout\n    ",
+    "link": "http://github.com/lapwinglabs/catch-stdout",
+    "description": "\n        Catch stdout (useful for testing)\n      ",
+    "meta": {
+      "starredOn": "Jan 19, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        simov\n        /\n        grant\n    ",
+    "link": "http://github.com/simov/grant",
+    "description": "\n        OAuth Middleware for Express, Koa and Hapi\n      ",
+    "meta": {
+      "starredOn": "Jan 19, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        RMerl\n        /\n        asuswrt-merlin\n    ",
+    "link": "http://github.com/RMerl/asuswrt-merlin",
+    "description": "\n        Enhanced version of Asus's router firmware (Asuswrt)\n      ",
+    "meta": {
+      "starredOn": "Jan 19, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        neilj\n        /\n        Squire\n    ",
+    "link": "http://github.com/neilj/Squire",
+    "description": "\n        HTML5 rich text editor. Try the demo integration at\n      ",
+    "meta": {
+      "starredOn": "Jan 18, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        patchboard\n        /\n        patchboard\n    ",
+    "link": "http://github.com/patchboard/patchboard",
+    "description": "\n        Self-assembling HTTP API libraries\n      ",
+    "meta": {
+      "starredOn": "Jan 18, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        webpack\n        /\n        webpack\n    ",
+    "link": "http://github.com/webpack/webpack",
+    "description": "\n        Packs CommonJs/AMD modules for the browser. Allows to split your codebase into multiple bundles, which can be loaded on demand. Support loaders to preprocess files, i.e. json, jade, coffee, css, less, ... and your custom stuff.\n      ",
+    "meta": {
+      "starredOn": "Jan 16, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        dominicbarnes\n        /\n        json-string\n    ",
+    "link": "http://github.com/dominicbarnes/json-string",
+    "description": "\n        A customizable JSON formatter\n      ",
+    "meta": {
+      "starredOn": "Jan 15, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Bill4Time\n        /\n        javascript-natural-sort\n    ",
+    "link": "http://github.com/Bill4Time/javascript-natural-sort",
+    "description": "\n        Packaged up for npm and commonjs\n      ",
+    "meta": {
+      "starredOn": "Jan 15, 2015"
+    }
+  }
+
+,
+
+  {
+    "title": "\n      \n        creativelive\n        /\n        appear\n    ",
+    "link": "http://github.com/creativelive/appear",
+    "description": "\n        execute callbacks when dom elements appear in and out of view\n      ",
+    "meta": {
+      "starredOn": "Jan 13, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        juliangruber\n        /\n        browser-run\n    ",
+    "link": "http://github.com/juliangruber/browser-run",
+    "description": "\n        The easiest way of running code in a browser environment\n      ",
+    "meta": {
+      "starredOn": "Jan 13, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        frankwallis\n        /\n        duo-debower\n    ",
+    "link": "http://github.com/frankwallis/duo-debower",
+    "description": "\n        converts bower.json to component.json\n      ",
+    "meta": {
+      "starredOn": "Jan 12, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        koajs\n        /\n        error\n    ",
+    "link": "http://github.com/koajs/error",
+    "description": "\n        Error response middleware (text, json, html) \n      ",
+    "meta": {
+      "starredOn": "Jan 12, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        addyosmani\n        /\n        es6-equivalents-in-es5\n    ",
+    "link": "http://github.com/addyosmani/es6-equivalents-in-es5",
+    "description": "\n        WIP - ES6 Equivalents In ES5\n      ",
+    "meta": {
+      "starredOn": "Jan 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        daniel-lundin\n        /\n        snabbt.js\n    ",
+    "link": "http://github.com/daniel-lundin/snabbt.js",
+    "description": "\n        Fast animations with javascript and CSS transforms\n      ",
+    "meta": {
+      "starredOn": "Jan 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        itteco\n        /\n        iframely\n    ",
+    "link": "http://github.com/itteco/iframely",
+    "description": "\n        Embeds API you wish you built yourself. Over 1600 domains. (Responsive, oEmbed, Twitter Cards, Open Graph, Readability and more)\n      ",
+    "meta": {
+      "starredOn": "Jan 11, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        tejasmanohar\n        /\n        npm-algos\n    ",
+    "link": "http://github.com/tejasmanohar/npm-algos",
+    "description": "\n        Curated List of Node.js Modules Implementing Computer Science Concepts\n      ",
+    "meta": {
+      "starredOn": "Jan 9, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        bdentino\n        /\n        redebug\n    ",
+    "link": "http://github.com/bdentino/redebug",
+    "description": "\n        tiny wrapper that patches in support for dynamic configurability of visionmedia/debug\n      ",
+    "meta": {
+      "starredOn": "Jan 9, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        auchenberg\n        /\n        chrome-devtools-app\n    ",
+    "link": "http://github.com/auchenberg/chrome-devtools-app",
+    "description": "\n        Chrome DevTools packaged as an app via nw.js\n      ",
+    "meta": {
+      "starredOn": "Jan 9, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        webmodules\n        /\n        dom-serialize\n    ",
+    "link": "http://github.com/webmodules/dom-serialize",
+    "description": "\n        Serializes any DOM node into a String\n      ",
+    "meta": {
+      "starredOn": "Jan 9, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        srijs\n        /\n        rusha\n    ",
+    "link": "http://github.com/srijs/rusha",
+    "description": "\n        High-performance pure-javascript SHA1 implementation suitable for large binary data, reaching up to half the native speed.\n      ",
+    "meta": {
+      "starredOn": "Jan 8, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        send-form\n    ",
+    "link": "http://github.com/lapwinglabs/send-form",
+    "description": "\n        Simply send form data synchronously using javascript\n      ",
+    "meta": {
+      "starredOn": "Jan 8, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        ghinda\n        /\n        css-toggle-switch\n    ",
+    "link": "http://github.com/ghinda/css-toggle-switch",
+    "description": "\n        Accessible, CSS-only, toggle switches\n      ",
+    "meta": {
+      "starredOn": "Jan 8, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        felixge\n        /\n        node-memory-leak-tutorial\n    ",
+    "link": "http://github.com/felixge/node-memory-leak-tutorial",
+    "description": "\n        A tutorial for debugging memory leaks in node\n      ",
+    "meta": {
+      "starredOn": "Jan 8, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        systemjs\n        /\n        systemjs\n    ",
+    "link": "http://github.com/systemjs/systemjs",
+    "description": "\n        Universal dynamic module loader\n      ",
+    "meta": {
+      "starredOn": "Jan 8, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        basicallydan\n        /\n        interfake\n    ",
+    "link": "http://github.com/basicallydan/interfake",
+    "description": "\n        \n Fake APIs for prototypes & automated tests.\n      ",
+    "meta": {
+      "starredOn": "Jan 7, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        ive\n    ",
+    "link": "http://github.com/lapwinglabs/ive",
+    "description": "\n        Validate your forms in the browser and the form data on the server using the same schemas.\n      ",
+    "meta": {
+      "starredOn": "Jan 7, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        shime\n        /\n        creative-commons-media\n    ",
+    "link": "http://github.com/shime/creative-commons-media",
+    "description": "\n        A curated list of resources that provide media licensed under Creative Commons licenses.\n      ",
+    "meta": {
+      "starredOn": "Jan 7, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        google\n        /\n        novm\n    ",
+    "link": "http://github.com/google/novm",
+    "description": "\n        Experimental KVM-based VMM, written in Go.\n      ",
+    "meta": {
+      "starredOn": "Jan 7, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        krasimir\n        /\n        bubble.js\n    ",
+    "link": "http://github.com/krasimir/bubble.js",
+    "description": "\n        Pleasing the DOM event handling\n      ",
+    "meta": {
+      "starredOn": "Jan 7, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        andrewchilds\n        /\n        slack-notify\n    ",
+    "link": "http://github.com/andrewchilds/slack-notify",
+    "description": "\n        A Node.js wrapper around the Slack Webhook API.\n      ",
+    "meta": {
+      "starredOn": "Jan 7, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rvagg\n        /\n        bole\n    ",
+    "link": "http://github.com/rvagg/bole",
+    "description": "\n        A tiny JSON logger\n      ",
+    "meta": {
+      "starredOn": "Jan 7, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        hughsk\n        /\n        bistre\n    ",
+    "link": "http://github.com/hughsk/bistre",
+    "description": "\n        A command-line tool and module for printing colourful bole logs.\n      ",
+    "meta": {
+      "starredOn": "Jan 7, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        johntron\n        /\n        duo-search\n    ",
+    "link": "http://github.com/johntron/duo-search",
+    "description": "\n        Duo command to search Github for modules: duo search <keyword>\n      ",
+    "meta": {
+      "starredOn": "Jan 7, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        yoshuawuyts\n        /\n        debug-to-json\n    ",
+    "link": "http://github.com/yoshuawuyts/debug-to-json",
+    "description": "\n        \n Convert debug logs to JSON\n      ",
+    "meta": {
+      "starredOn": "Jan 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        antimatter15\n        /\n        ocrad.js\n    ",
+    "link": "http://github.com/antimatter15/ocrad.js",
+    "description": "\n        OCR in Javascript via Emscripten\n      ",
+    "meta": {
+      "starredOn": "Jan 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        yosuke-furukawa\n        /\n        okrabyte\n    ",
+    "link": "http://github.com/yosuke-furukawa/okrabyte",
+    "description": "\n        OCR library pure JavaScript (using Ocrad.js)\n      ",
+    "meta": {
+      "starredOn": "Jan 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        sophron\n        /\n        wifiphisher\n    ",
+    "link": "http://github.com/sophron/wifiphisher",
+    "description": "\n        Fast automated phishing attacks against WiFi networks\n      ",
+    "meta": {
+      "starredOn": "Jan 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        bunnybones1\n        /\n        input-touch\n    ",
+    "link": "http://github.com/bunnybones1/input-touch",
+    "meta": {
+      "starredOn": "Jan 6, 2015"
+    }
+  }
+
+,
+
+  {
+    "title": "\n      \n        essamjoubori\n        /\n        finance.js\n    ",
+    "link": "http://github.com/essamjoubori/finance.js",
+    "description": "\n        A JavaScript library for common financial calculations\n      ",
+    "meta": {
+      "starredOn": "Jan 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        julianshapiro\n        /\n        libscore\n    ",
+    "link": "http://github.com/julianshapiro/libscore",
+    "description": "\n        JavaScript library usage stats.\n      ",
+    "meta": {
+      "starredOn": "Jan 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        amjith\n        /\n        pgcli\n    ",
+    "link": "http://github.com/amjith/pgcli",
+    "description": "\n        Postgres CLI with autocompletion and syntax highlighting\n      ",
+    "meta": {
+      "starredOn": "Jan 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        pstadler\n        /\n        flightplan\n    ",
+    "link": "http://github.com/pstadler/flightplan",
+    "description": "\n        Node.js library for streamlining application deployment or systems administration tasks.\n      ",
+    "meta": {
+      "starredOn": "Jan 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        MatthewMueller\n        /\n        remember\n    ",
+    "link": "http://github.com/MatthewMueller/remember",
+    "description": "\n        Use localstorage to remember input values. Supports textareas and inputs including radio buttons and checkboxes.\n      ",
+    "meta": {
+      "starredOn": "Jan 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        marcuswestin\n        /\n        store.js\n    ",
+    "link": "http://github.com/marcuswestin/store.js",
+    "description": "\n        localStorage wrapper for all browsers without using cookies or flash. Uses localStorage, globalStorage, and userData behavior under the hood\n      ",
+    "meta": {
+      "starredOn": "Jan 6, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        caldwell\n        /\n        renderjson\n    ",
+    "link": "http://github.com/caldwell/renderjson",
+    "description": "\n        Render JSON into collapsible HTML\n      ",
+    "meta": {
+      "starredOn": "Jan 4, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        andrejewski\n        /\n        matt\n    ",
+    "link": "http://github.com/andrejewski/matt",
+    "description": "\n        JavaScript DSL for Matrices\n      ",
+    "meta": {
+      "starredOn": "Jan 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        sindresorhus\n        /\n        object-assign\n    ",
+    "link": "http://github.com/sindresorhus/object-assign",
+    "description": "\n        ES6 Object.assign() ponyfill\n      ",
+    "meta": {
+      "starredOn": "Jan 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        ripplejs\n        /\n        keypath\n    ",
+    "link": "http://github.com/ripplejs/keypath",
+    "description": "\n        Get or set a property on an object using a keypath\n      ",
+    "meta": {
+      "starredOn": "Jan 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        rvagg\n        /\n        prr\n    ",
+    "link": "http://github.com/rvagg/prr",
+    "meta": {
+      "starredOn": "Jan 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        lukasz-madon\n        /\n        awesome-remote-job\n    ",
+    "link": "http://github.com/lukasz-madon/awesome-remote-job",
+    "description": "\n        A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python\n      ",
+    "meta": {
+      "starredOn": "Jan 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        goatslacker\n        /\n        alt\n    ",
+    "link": "http://github.com/goatslacker/alt",
+    "description": "\n        Isomorphic Flux\n      ",
+    "meta": {
+      "starredOn": "Jan 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        arturadib\n        /\n        node-qt\n    ",
+    "link": "http://github.com/arturadib/node-qt",
+    "description": "\n        C++ Qt bindings for Node.js\n      ",
+    "meta": {
+      "starredOn": "Jan 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        b00giZm\n        /\n        express-ifttt-webhook\n    ",
+    "link": "http://github.com/b00giZm/express-ifttt-webhook",
+    "description": "\n        A middleware to plug your Express app into IFTTT.com\n      ",
+    "meta": {
+      "starredOn": "Jan 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        davepacheco\n        /\n        node-vasync\n    ",
+    "link": "http://github.com/davepacheco/node-vasync",
+    "description": "\n        utilities for observable asynchronous control flow\n      ",
+    "meta": {
+      "starredOn": "Jan 2, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        josh\n        /\n        cafe-js\n    ",
+    "link": "http://github.com/josh/cafe-js",
+    "description": "\n        Content Addressable Function Environment\n      ",
+    "meta": {
+      "starredOn": "Jan 1, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        Netflix\n        /\n        ice\n    ",
+    "link": "http://github.com/Netflix/ice",
+    "description": "\n        AWS Usage Tool\n      ",
+    "meta": {
+      "starredOn": "Jan 1, 2015"
+    }
+  },
+  {
+    "title": "\n      \n        azu\n        /\n        textlint\n    ",
+    "link": "http://github.com/azu/textlint",
+    "description": "\n        The pluggable linting tool for text(plain text and markdown).\n      ",
+    "meta": {
+      "starredOn": "Dec 31, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        apenwarr\n        /\n        git-subtree\n    ",
+    "link": "http://github.com/apenwarr/git-subtree",
+    "description": "\n        An experimental alternative to the git-submodule command. Merges and splits subtrees from your project into subprojects and back.\n      ",
+    "meta": {
+      "starredOn": "Dec 31, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        timoxley\n        /\n        signalfn\n    ",
+    "link": "http://github.com/timoxley/signalfn",
+    "description": "\n        Simple signalling\n      ",
+    "meta": {
+      "starredOn": "Dec 31, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        progrium\n        /\n        duplex\n    ",
+    "link": "http://github.com/progrium/duplex",
+    "meta": {
+      "starredOn": "Dec 31, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        webmodules\n        /\n        range-iterator\n    ",
+    "link": "http://github.com/webmodules/range-iterator",
+    "description": "\n        ES6 Iterator that iterates over the Nodes of a Range\n      ",
+    "meta": {
+      "starredOn": "Dec 31, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        mafintosh\n        /\n        level-indexer\n    ",
+    "link": "http://github.com/mafintosh/level-indexer",
+    "description": "\n        generic property indexer for leveldb\n      ",
+    "meta": {
+      "starredOn": "Dec 30, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        webmodules\n        /\n        bounding-client-rect\n    ",
+    "link": "http://github.com/webmodules/bounding-client-rect",
+    "description": "\n        Cross-browser `getBoundingClientRect()` for all Node types\n      ",
+    "meta": {
+      "starredOn": "Dec 30, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        superjson\n    ",
+    "link": "http://github.com/lapwinglabs/superjson",
+    "description": "\n        Extends JSON.stringify and JSON.parse to support additional JS types \n      ",
+    "meta": {
+      "starredOn": "Dec 30, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        feross\n        /\n        simple-get\n    ",
+    "link": "http://github.com/feross/simple-get",
+    "description": "\n        Simplest way to make http get requests. Supports HTTPS, redirects, gzip/deflate, streams in < 100 lines\n      ",
+    "meta": {
+      "starredOn": "Dec 29, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        atmos\n        /\n        camo\n    ",
+    "link": "http://github.com/atmos/camo",
+    "description": "\n        a small http proxy to simplify routing images through an SSL host\n      ",
+    "meta": {
+      "starredOn": "Dec 23, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        github\n        /\n        markup\n    ",
+    "link": "http://github.com/github/markup",
+    "description": "\n        The code we use to render README.your_favorite_markup\n      ",
+    "meta": {
+      "starredOn": "Dec 22, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        fitztrev\n        /\n        make-it-rain\n    ",
+    "link": "http://github.com/fitztrev/make-it-rain",
+    "description": "\n        Animated gif notifications whenever you get paid through Stripe\n      ",
+    "meta": {
+      "starredOn": "Dec 22, 2014"
+    }
+  }
+
+,
+
+  {
+    "title": "\n      \n        micnews\n        /\n        github-compare\n    ",
+    "link": "http://github.com/micnews/github-compare",
+    "description": "\n        Compare git branches in the GitHub UI.\n      ",
+    "meta": {
+      "starredOn": "Dec 22, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        bodil\n        /\n        cljs-noderepl\n    ",
+    "link": "http://github.com/bodil/cljs-noderepl",
+    "description": "\n        A ClojureScript REPL running on Node.JS\n      ",
+    "meta": {
+      "starredOn": "Dec 21, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        Pita\n        /\n        ueberDB\n    ",
+    "link": "http://github.com/Pita/ueberDB",
+    "description": "\n        transforms every database into a object key value store, written in node.js\n      ",
+    "meta": {
+      "starredOn": "Dec 20, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        hughrawlinson\n        /\n        meyda\n    ",
+    "link": "http://github.com/hughrawlinson/meyda",
+    "description": "\n        Real-time Audio Feature Extraction for the Web Audio API\n      ",
+    "meta": {
+      "starredOn": "Dec 18, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        progrium\n        /\n        buildstep\n    ",
+    "link": "http://github.com/progrium/buildstep",
+    "description": "\n        Buildstep uses Docker and Buildpacks to build applications like Heroku\n      ",
+    "meta": {
+      "starredOn": "Dec 18, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        gliderlabs\n        /\n        herokuish\n    ",
+    "link": "http://github.com/gliderlabs/herokuish",
+    "description": "\n        Utility for emulating Heroku build and runtime tasks in containers\n      ",
+    "meta": {
+      "starredOn": "Dec 18, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        progrium\n        /\n        gh-release\n    ",
+    "link": "http://github.com/progrium/gh-release",
+    "description": "\n        Utility for automating Github releases with file uploads\n      ",
+    "meta": {
+      "starredOn": "Dec 17, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        sehrope\n        /\n        dokku-logging-supervisord\n    ",
+    "link": "http://github.com/sehrope/dokku-logging-supervisord",
+    "description": "\n        Individual app logs and supervisord for Dokku\n      ",
+    "meta": {
+      "starredOn": "Dec 17, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        progrium\n        /\n        go-basher\n    ",
+    "link": "http://github.com/progrium/go-basher",
+    "description": "\n        Library for writing hybrid Go and Bash programs\n      ",
+    "meta": {
+      "starredOn": "Dec 17, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        millermedeiros\n        /\n        js-signals\n    ",
+    "link": "http://github.com/millermedeiros/js-signals",
+    "description": "\n        Custom Event/Messaging system for JavaScript inspired by AS3-Signals\n      ",
+    "meta": {
+      "starredOn": "Dec 17, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        mourner\n        /\n        rbush\n    ",
+    "link": "http://github.com/mourner/rbush",
+    "description": "\n        RBush — a high-performance JavaScript R-tree-based 2D spatial index for points and rectangles\n      ",
+    "meta": {
+      "starredOn": "Dec 16, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        stiang\n        /\n        koa-jwt\n    ",
+    "link": "http://github.com/stiang/koa-jwt",
+    "description": "\n        Koa middleware for validating JSON Web Tokens\n      ",
+    "meta": {
+      "starredOn": "Dec 15, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        mridgway\n        /\n        isomorphic-chat\n    ",
+    "link": "http://github.com/mridgway/isomorphic-chat",
+    "description": "\n        Use `npm i; npm start` to run app\n      ",
+    "meta": {
+      "starredOn": "Dec 15, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        yields\n        /\n        phony\n    ",
+    "link": "http://github.com/yields/phony",
+    "description": "\n        tiny command line fake data generator\n      ",
+    "meta": {
+      "starredOn": "Dec 13, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        modella\n        /\n        mongo\n    ",
+    "link": "http://github.com/modella/mongo",
+    "description": "\n        mongo plugin for modella\n      ",
+    "meta": {
+      "starredOn": "Dec 13, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        babel\n        /\n        duo-babel\n    ",
+    "link": "http://github.com/babel/duo-babel",
+    "description": "\n        Duo plugin for babel\n      ",
+    "meta": {
+      "starredOn": "Dec 12, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        luxifer\n        /\n        dokku-redis-plugin\n    ",
+    "link": "http://github.com/luxifer/dokku-redis-plugin",
+    "description": "\n        Redis plugin for Dokku\n      ",
+    "meta": {
+      "starredOn": "Dec 12, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        techfort\n        /\n        LokiJS\n    ",
+    "link": "http://github.com/techfort/LokiJS",
+    "description": "\n        javascript embeddable / in-memory database\n      ",
+    "meta": {
+      "starredOn": "Dec 12, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        ohardy\n        /\n        dokku-redis\n    ",
+    "link": "http://github.com/ohardy/dokku-redis",
+    "meta": {
+      "starredOn": "Dec 12, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        joyent\n        /\n        node-in-the-industry\n    ",
+    "link": "http://github.com/joyent/node-in-the-industry",
+    "description": "\n        A script to generate fresh \"node in the industry\" content\n      ",
+    "meta": {
+      "starredOn": "Dec 11, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        bazillion\n        /\n        fuse\n    ",
+    "link": "http://github.com/bazillion/fuse",
+    "description": "\n        FUSE library for Go. Please use import path \"bazil.org/fuse\".\n      ",
+    "meta": {
+      "starredOn": "Dec 11, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        tj\n        /\n        dox\n    ",
+    "link": "http://github.com/tj/dox",
+    "description": "\n        JavaScript documentation generator for node using markdown and jsdoc\n      ",
+    "meta": {
+      "starredOn": "Dec 11, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        ivolo\n        /\n        disposable-email-domains\n    ",
+    "link": "http://github.com/ivolo/disposable-email-domains",
+    "description": "\n        A list of disposable email domains\n      ",
+    "meta": {
+      "starredOn": "Dec 11, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        guyht\n        /\n        notp\n    ",
+    "link": "http://github.com/guyht/notp",
+    "description": "\n        Node One Time Password library, supports HOTP, TOTP and works with Google Authenticator\n      ",
+    "meta": {
+      "starredOn": "Dec 11, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        prok\n    ",
+    "link": "http://github.com/lapwinglabs/prok",
+    "description": "\n        Run multiple processes, simply.\n      ",
+    "meta": {
+      "starredOn": "Dec 11, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        pebble\n        /\n        yieldb\n    ",
+    "link": "http://github.com/pebble/yieldb",
+    "description": "\n        Simple, expressive and yieldable MongoDB\n      ",
+    "meta": {
+      "starredOn": "Dec 10, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        paldepind\n        /\n        dffptch\n    ",
+    "link": "http://github.com/paldepind/dffptch",
+    "description": "\n        A micro library for diffing and patching JSON objects using a compact diff format\n      ",
+    "meta": {
+      "starredOn": "Dec 9, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        josephernest\n        /\n        bigpicture.js\n    ",
+    "link": "http://github.com/josephernest/bigpicture.js",
+    "description": "\n        bigpicture.js is a library that allows infinite panning and infinite zooming in HTML pages.\n      ",
+    "meta": {
+      "starredOn": "Dec 9, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        neam\n        /\n        dokku-custom-domains\n    ",
+    "link": "http://github.com/neam/dokku-custom-domains",
+    "description": "\n        Dokku plugin to create nginx vhost with multiple domains\n      ",
+    "meta": {
+      "starredOn": "Dec 9, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        jeffutter\n        /\n        dokku-mongodb-plugin\n    ",
+    "link": "http://github.com/jeffutter/dokku-mongodb-plugin",
+    "description": "\n        Plugin to setup Mongodb accounts for containers deployed to Dokku\n      ",
+    "meta": {
+      "starredOn": "Dec 8, 2014"
+    }
+  }
+
+,
+
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        winston-chains\n    ",
+    "link": "http://github.com/lapwinglabs/winston-chains",
+    "description": "\n        Chain winston loggers for cascading messages into multiple transport groups.\n      ",
+    "meta": {
+      "starredOn": "Dec 8, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        MikeMcl\n        /\n        big.js\n    ",
+    "link": "http://github.com/MikeMcl/big.js",
+    "description": "\n        A small, fast JavaScript library for arbitrary-precision decimal arithmetic.\n      ",
+    "meta": {
+      "starredOn": "Dec 8, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        ikr\n        /\n        money-math\n    ",
+    "link": "http://github.com/ikr/money-math",
+    "description": "\n        bignum-based arbitrary precision operations on currency amounts \"XXX.YY\"; because floats are BAD for representing money\n      ",
+    "meta": {
+      "starredOn": "Dec 8, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        letsencrypt\n        /\n        lets-encrypt-preview\n    ",
+    "link": "http://github.com/letsencrypt/lets-encrypt-preview",
+    "description": "\n        An ACME client that can update Apache configurations (developer preview) \n      ",
+    "meta": {
+      "starredOn": "Dec 7, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        postcss\n        /\n        postcss\n    ",
+    "link": "http://github.com/postcss/postcss",
+    "description": "\n        Transforming CSS with JS plugins\n      ",
+    "meta": {
+      "starredOn": "Dec 7, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        Medium\n        /\n        sus\n    ",
+    "link": "http://github.com/Medium/sus",
+    "description": "\n        simple data-uri stylesheet generator\n      ",
+    "meta": {
+      "starredOn": "Dec 7, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        sindresorhus\n        /\n        awesome-nodejs\n    ",
+    "link": "http://github.com/sindresorhus/awesome-nodejs",
+    "description": "\n        A curated list of delightful Node.js packages and resources.\n      ",
+    "meta": {
+      "starredOn": "Dec 7, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        NodeBB\n        /\n        NodeBB\n    ",
+    "link": "http://github.com/NodeBB/NodeBB",
+    "description": "\n        Node.js based forum software built for the modern web\n      ",
+    "meta": {
+      "starredOn": "Dec 7, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        mattdesl\n        /\n        lerp-css-string\n    ",
+    "link": "http://github.com/mattdesl/lerp-css-string",
+    "description": "\n        interpolate values in a css string\n      ",
+    "meta": {
+      "starredOn": "Dec 7, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        sheetify\n        /\n        sheetify\n    ",
+    "link": "http://github.com/sheetify/sheetify",
+    "description": "\n        A module bundler for CSS that works with npm modules like browserify does with JavaScript\n      ",
+    "meta": {
+      "starredOn": "Dec 6, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        mattdesl\n        /\n        tween-chain\n    ",
+    "link": "http://github.com/mattdesl/tween-chain",
+    "description": "\n        a tween timeline or chain\n      ",
+    "meta": {
+      "starredOn": "Dec 6, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        winston-leveldb\n    ",
+    "link": "http://github.com/lapwinglabs/winston-leveldb",
+    "description": "\n        LevelDB transport for winston logging library\n      ",
+    "meta": {
+      "starredOn": "Dec 6, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        mattdesl\n        /\n        tweenr\n    ",
+    "link": "http://github.com/mattdesl/tweenr",
+    "description": "\n        minimal tweening engine\n      ",
+    "meta": {
+      "starredOn": "Dec 5, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        winston-bishop-slack\n    ",
+    "link": "http://github.com/lapwinglabs/winston-bishop-slack",
+    "description": "\n        Winston Transport for Slack chat integration \n      ",
+    "meta": {
+      "starredOn": "Dec 5, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        kumailht\n        /\n        gridforms\n    ",
+    "link": "http://github.com/kumailht/gridforms",
+    "description": "\n        Data entry can be beautiful\n      ",
+    "meta": {
+      "starredOn": "Dec 4, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        Softmotions\n        /\n        ejdb\n    ",
+    "link": "http://github.com/Softmotions/ejdb",
+    "description": "\n        EJDB — Embedded JSON Database engine\n      ",
+    "meta": {
+      "starredOn": "Dec 3, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        petehunt\n        /\n        react-gss\n    ",
+    "link": "http://github.com/petehunt/react-gss",
+    "meta": {
+      "starredOn": "Dec 3, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        iojs\n        /\n        io.js\n    ",
+    "link": "http://github.com/iojs/io.js",
+    "description": "\n        A friendly fork of Node.js with an open governance model\n      ",
+    "meta": {
+      "starredOn": "Dec 2, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        globesherpa\n        /\n        node-isemail\n    ",
+    "link": "http://github.com/globesherpa/node-isemail",
+    "description": "\n        properly validate an email address according to RFCs 5321, 5322, and others\n      ",
+    "meta": {
+      "starredOn": "Dec 1, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        maxogden\n        /\n        inline-styles\n    ",
+    "link": "http://github.com/maxogden/inline-styles",
+    "description": "\n        replaces link tags with inline style tags + inlines CSS url() calls with data URIs\n      ",
+    "meta": {
+      "starredOn": "Dec 1, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        caesar0301\n        /\n        awesome-public-datasets\n    ",
+    "link": "http://github.com/caesar0301/awesome-public-datasets",
+    "description": "\n        An awesome list of (large-scale) public datasets on the Internet. (On-going collection)\n      ",
+    "meta": {
+      "starredOn": "Dec 1, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        rube-schema\n    ",
+    "link": "http://github.com/lapwinglabs/rube-schema",
+    "description": "\n        Validate schemas. Works in the browser and on the server. Powered by rube.\n      ",
+    "meta": {
+      "starredOn": "Dec 1, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        jayzawrotny\n        /\n        gulp-mc-inline-css\n    ",
+    "link": "http://github.com/jayzawrotny/gulp-mc-inline-css",
+    "description": "\n        A gulp plugin for sending HTML to mailchimp's CSS API\n      ",
+    "meta": {
+      "starredOn": "Dec 1, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        pocketjoso\n        /\n        specificity-graph\n    ",
+    "link": "http://github.com/pocketjoso/specificity-graph",
+    "description": "\n        Generate interactive Specificity Graphs for your CSS\n      ",
+    "meta": {
+      "starredOn": "Nov 29, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        knsv\n        /\n        mermaid\n    ",
+    "link": "http://github.com/knsv/mermaid",
+    "description": "\n        Generation of diagram and flowchart from text in a similar manner as markdown\n      ",
+    "meta": {
+      "starredOn": "Nov 29, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        unconed\n        /\n        shadergraph\n    ",
+    "link": "http://github.com/unconed/shadergraph",
+    "description": "\n        Functional GLSL Linker\n      ",
+    "meta": {
+      "starredOn": "Nov 29, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        Raynos\n        /\n        leaked-handles\n    ",
+    "link": "http://github.com/Raynos/leaked-handles",
+    "description": "\n        Detect any handles leaked in node\n      ",
+    "meta": {
+      "starredOn": "Nov 29, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        lapwinglabs\n        /\n        rube\n    ",
+    "link": "http://github.com/lapwinglabs/rube",
+    "description": "\n        A composable data validation, transformation & manipulation pipeline\n      ",
+    "meta": {
+      "starredOn": "Nov 29, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        eivindfjeldstad\n        /\n        typecast\n    ",
+    "link": "http://github.com/eivindfjeldstad/typecast",
+    "description": "\n        Simple, opinionated typecasting\n      ",
+    "meta": {
+      "starredOn": "Nov 28, 2014"
+    }
+  },
+  {
+    "title": "\n      \n        kriskowal\n        /\n        gtor\n    ",
+    "link": "http://github.com/kriskowal/gtor",
+    "description": "\n        A General Theory of Reactivity\n      ",
+    "meta": {
+      "starredOn": "Nov 28, 2014"
+    }
+  }
+
+]
