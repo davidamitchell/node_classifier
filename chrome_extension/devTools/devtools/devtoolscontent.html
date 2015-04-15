@@ -1,0 +1,45 @@
+<script type="text/javascript" src="devtoolscontent.js"></script>
+<style>
+table {
+	font-size: 12px;
+	margin: 10px;
+	width: 480px;
+	text-align: left;
+}
+th {
+	font-size: 14px;
+	font-weight: normal;
+	color: #666;
+	padding: 10px 8px;
+	border-bottom: 2px solid #bbb;
+}
+td {
+	border-bottom: 1px solid #ccc;
+	color: #bbb;
+	padding: 6px 8px;
+}
+#log {
+	margin: 10px;
+	float: right;
+	width: 40%;
+}
+#content {
+	float: left;
+	width: 40%;
+}
+</style>
+<div id="content">
+	<button id="button">button</button>
+	<table id="dev-tools-table">
+		<thead>
+			<tr>
+				<th scope="col" id="">name</th>
+				<th scope="col" id="">value</th>
+			</tr>
+		</thead>
+
+		<tbody id="tbody">
+		</tbody>
+	</table>
+</div>
+<div id="log"></div>
