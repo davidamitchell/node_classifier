@@ -26,6 +26,9 @@
       "run_at": "document_idle"
     }
   ],
+  "permissions": [
+    "storage"
+  ],
 
   "devtools_page": "devtools/devtools.html"
 }

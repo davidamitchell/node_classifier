@@ -1,3 +1,7 @@
+
+/************************************************************************************************/
+// page inspection
+/************************************************************************************************/
 function inspectPage(){
 	var payload = [];
 
@@ -26,36 +30,10 @@ function inspectPage(){
 	payload.push({name: 'ads', value: adsPartition + '(' + adUrls.length + ')'})
 
 	var port = chrome.extension.connect({ name: "inspect-content-port" });
-	port.postMessage({'summary': payload, 'links': adUrls});
+	port.postMessage({'summary': payload, 'links': adUrls, 'domain': domain});
 }
-
-function offSiteLinks(links) {
-	var offsite = [];
-	for(var i = 0; i < links.length; i++){
-		if(!isLocalLink(links[i].href)) {
-			offsite.push(links[i].href);
-		}
-	}
-	return offsite;
-}
-
-function ads(links, scripts){
-	var ads = [];
-	for(var i = 0; i < links.length; i++){
-		if(isAd(links[i].href)) {
-			ads.push(links[i].href);
-		}
-	}
-	for(var i = 0; i < scripts.length; i++){
-		// console.log(isAd(scripts[i].src), scripts[i].src);
-		if(isAd(scripts[i].src)) {
-			ads.push(scripts[i].src);
-		}
-	}
-
-	return ads;
-}
-
+/*===============================================================================================*/
+// counts to string stuff
 function partition(count, partitions) {
 	var r_partition = 'vhigh';
 	switch(true){
@@ -75,6 +53,20 @@ function partition(count, partitions) {
 	}
 	return r_partition;
 }
+// counts to string stuff END
+
+
+/*===============================================================================================*/
+// link stuff
+function offSiteLinks(links) {
+	var offsite = [];
+	for(var i = 0; i < links.length; i++){
+		if(!isLocalLink(links[i].href)) {
+			offsite.push(links[i].href);
+		}
+	}
+	return offsite;
+}
 
 function isLocalLink(uri){
 	var localLink = false;
@@ -86,13 +78,42 @@ function isLocalLink(uri){
 
 	return !!test_uri.match(re);
 }
+// link stuff END
 
+/*===============================================================================================*/
+// ad stuff
 var ad_pattern = "doubleclick|adclick|pagead|googleadservices|show_ads|pagefair|viglink|idgtn";
+
+function ads(links, scripts){
+	var ads = [];
+	for(var i = 0; i < links.length; i++){
+		if(isAd(links[i].href)) {
+			ads.push(links[i].href);
+		}
+	}
+	for(var i = 0; i < scripts.length; i++){
+		// console.log(isAd(scripts[i].src), scripts[i].src);
+		if(isAd(scripts[i].src)) {
+			ads.push(scripts[i].src);
+		}
+	}
+
+	return ads;
+}
 
 function isAd(text) {
 	return !!text.match(new RegExp(ad_pattern, "i"));
 }
+// ad stuff END
 
+/************************************************************************************************/
+// page inspection END
+
+
+
+/************************************************************************************************/
+// result augementing
+/************************************************************************************************/
 function orderResults(results){
 	var a_results = []
 	for (var i = 0, result; result = results[i]; i++) {
@@ -145,6 +166,10 @@ function augmentResults(){
 		document.getElementById('rhs_block').appendChild(d);
 	}
 }
+/************************************************************************************************/
+// result augementing END
+
+
 
 inspectPage();
 
