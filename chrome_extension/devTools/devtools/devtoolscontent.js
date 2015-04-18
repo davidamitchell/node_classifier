@@ -37,6 +37,7 @@ function do_something(msg){
 		var newRow = tableRef.insertRow(tableRef.rows.length);
 		newRow.insertCell(0).appendChild(document.createTextNode(summary[i].name));
 		newRow.insertCell(1).appendChild(document.createTextNode(summary[i].value));
+		newRow.insertCell(2).appendChild(document.createTextNode(summary[i].meta));
 	}
 
 	for (var i = 0; i < msg.links.length; i++) {

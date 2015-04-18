@@ -6,31 +6,30 @@ function inspectPage(){
 	var payload = [];
 
 	var domain = window.location.hostname.replace(/^www\./,'');
-	payload.push({name: 'domain', value: domain})
+	payload.push({name: 'domain', value: domain, meta: null})
 
 	var url = window.location.hostname + window.location.pathname
-	payload.push({name: 'url', value: url})
+	payload.push({name: 'url', value: url, meta: null})
 
 	var images = document.querySelectorAll("img");
 	var imagesPartition = partition(images.length, [5,20,100,300])
-	payload.push({name: 'images', value: imagesPartition + '(' + images.length + ')'})
+	payload.push({name: 'images', value: imagesPartition, meta: images.length})
 
 	var links = document.querySelectorAll("a");
-	var linksPartition = partition(links.length, [10,50,150,500])
-	payload.push({name: 'links', value: linksPartition + '(' + links.length + ')'})
-
 	var nonLocalLinks = offSiteLinks(links)
 	var nonLocalPartition = partition(nonLocalLinks.length, [5,10,50,100])
-	payload.push({name: 'off site links', value: nonLocalPartition + '(' + nonLocalLinks.length + ')'})
+	payload.push({name: 'off site links', value: nonLocalPartition, meta: nonLocalLinks.length})
 
 	var scripts = document.querySelectorAll("script");
-
 	var adUrls = ads(links, scripts)
 	var adsPartition = partition(adUrls.length, [1,5,10,15])
-	payload.push({name: 'ads', value: adsPartition + '(' + adUrls.length + ')'})
+	payload.push({name: 'ads', value: adsPartition, meta: adUrls.length})
+
+	var doctype = docType(document.doctype);
+	payload.push({name: 'doctype', value: doctype, meta: null})
 
 	var port = chrome.extension.connect({ name: "inspect-content-port" });
-	port.postMessage({'summary': payload, 'links': adUrls, 'domain': domain});
+	port.postMessage({'summary': payload, 'links': adUrls, 'domain': domain, meta: null});
 }
 /*===============================================================================================*/
 // counts to string stuff
@@ -105,6 +104,34 @@ function isAd(text) {
 	return !!text.match(new RegExp(ad_pattern, "i"));
 }
 // ad stuff END
+
+/*===============================================================================================*/
+// doctype stuff
+
+function docType(doctype_el){
+	var type;
+
+	if(is_html5(doctype_el)){
+		type = 'html5';
+	} else {
+		type = 'other';
+	}
+
+	return type;
+}
+
+var is_html5 = function (doctype_el) {
+    if (doctype_el === null || doctype_el === '') return false;
+
+    var type = new XMLSerializer().serializeToString(doctype_el);
+
+		var std_html5 = /<!doctype html>/i.test(type)
+		var alt_html5 = /<!doctype html system "about:legacy-compat">/i.test(type)
+
+    return std_html5 || atl_html5;
+};
+
+// doctype stuff END
 
 /************************************************************************************************/
 // page inspection END
