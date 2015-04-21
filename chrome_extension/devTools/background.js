@@ -5,6 +5,7 @@ chrome.extension.onConnect.addListener(function (port) {
   port.onMessage.addListener(function (message) {
     switch(port.name) {
     case "inspect-content-port":
+      console.log(message);
       storePageData(message);
       notifyDevtools(message);
       logLocalStorage();
@@ -22,7 +23,7 @@ chrome.extension.onConnect.addListener(function (port) {
 });
 
 function logLocalStorage() {
-  chrome.storage.sync.get( null, function(items){
+  chrome.storage.local.get( null, function(items){
     if (chrome.runtime.error) {
       console.error("Runtime error.");
     } else {
@@ -43,7 +44,7 @@ function storePageData(data){
 
   var obj = {};
   obj[pageKey] = pageData;
-  chrome.storage.sync.set(obj, function() {
+  chrome.storage.local.set(obj, function() {
     if (chrome.runtime.error) {
       console.log("Runtime error.");
     } else {

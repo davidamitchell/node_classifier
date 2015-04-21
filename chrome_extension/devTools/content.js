@@ -3,34 +3,42 @@
 // page inspection
 /************************************************************************************************/
 function inspectPage(){
-	var payload = [];
 
-	var domain = window.location.hostname.replace(/^www\./,'');
-	payload.push({name: 'domain', value: domain, meta: null})
+	if(window.location.hostname != 'www.google.co.nz'){
+		var payload = [];
 
-	var url = window.location.hostname + window.location.pathname
-	payload.push({name: 'url', value: url, meta: null})
+		var domain = window.location.hostname.replace(/^www\./,'');
+		payload.push({name: 'domain', value: domain, meta: null});
 
-	var images = document.querySelectorAll("img");
-	var imagesPartition = partition(images.length, [5,20,100,300])
-	payload.push({name: 'images', value: imagesPartition, meta: images.length})
+		var url = window.location.hostname + window.location.pathname;
+		payload.push({name: 'url', value: url, meta: null});
 
-	var links = document.querySelectorAll("a");
-	var nonLocalLinks = offSiteLinks(links)
-	var nonLocalPartition = partition(nonLocalLinks.length, [5,10,50,100])
-	payload.push({name: 'off site links', value: nonLocalPartition, meta: nonLocalLinks.length})
+		var images = document.querySelectorAll("img");
+		var imagesPartition = partition(images.length, [5,20,100,300]);
+		payload.push({name: 'images', value: imagesPartition, meta: images.length});
 
-	var scripts = document.querySelectorAll("script");
-	var adUrls = ads(links, scripts)
-	var adsPartition = partition(adUrls.length, [1,5,10,15])
-	payload.push({name: 'ads', value: adsPartition, meta: adUrls.length})
+		var links = document.querySelectorAll("a");
+		var nonLocalLinks = offSiteLinks(links);
+		var nonLocalPartition = partition(nonLocalLinks.length, [5,10,50,100]);
+		payload.push({name: 'off site links', value: nonLocalPartition, meta: nonLocalLinks.length});
 
-	var doctype = docType(document.doctype);
-	payload.push({name: 'doctype', value: doctype, meta: null})
+		var scripts = document.querySelectorAll("script");
+		var adUrls = ads(links, scripts);
+		var adsPartition = partition(adUrls.length, [1,5,10,15]);
+		payload.push({name: 'ads', value: adsPartition, meta: adUrls.length});
 
-	var port = chrome.extension.connect({ name: "inspect-content-port" });
-	port.postMessage({'summary': payload, 'links': adUrls, 'domain': domain, meta: null});
+		var font_info = getFontData(document.querySelectorAll('*'));
+		payload.push({name: 'font size', value: font_info.size, meta: null});
+		payload.push({name: 'font family', value: font_info.family, meta: null});
+
+		var doctype = docType(document.doctype);
+		payload.push({name: 'doctype', value: doctype, meta: null});
+
+		var message = {'summary': payload, 'links': adUrls, 'domain': domain, meta: null}
+		return message;
+	}
 }
+
 /*===============================================================================================*/
 // counts to string stuff
 function partition(count, partitions) {
@@ -125,12 +133,56 @@ var is_html5 = function (doctype_el) {
 
     var type = new XMLSerializer().serializeToString(doctype_el);
 
-		var std_html5 = /<!doctype html>/i.test(type)
-		var alt_html5 = /<!doctype html system "about:legacy-compat">/i.test(type)
+		var std_html5 = /<!doctype html>/i.test(type);
+		//var alt_html5 = /<!doctype html system "about:legacy-compat">/i.test(type);
 
-    return std_html5 || atl_html5;
+    return std_html5;// || atl_html5;
 };
 
+// doctype stuff END
+
+/*===============================================================================================*/
+// doctype stuff
+
+//getFontData(document.querySelectorAll('*'));
+function getFontData(nodes){
+	var scaned = scanWordCount(nodes)
+	var node = scaned[0].node
+	return fontInfo(node);
+}
+
+function fontInfo(el){
+
+	var info = {};
+	info.family = '';
+	info.size = '';
+
+console.log(el);
+
+	if (el) {
+		styles = window.getComputedStyle(el);
+		info.family = styles.fontFamily;
+		info.size = styles.fontSize;
+	}
+
+	return info;
+}
+
+function scanWordCount(nodes) {
+	var matches, count, clean, a;
+	return [].map.call(nodes, function(node) {
+		count = 0;
+		clean = !/<([A-Z][A-Z0-9]*)\b[^>]*>/i.test(node.innerHTML)
+		if (clean && !/script|style|title/i.test(node.tagName) && node.textContent){
+			matches = node.textContent.match(/[^\s]+/g);
+			count = matches == null ? 0 : matches.length;
+		}
+		return {tag: node.outerHTML, word_count: count, node: node};
+	}).sort(function(x, y) {
+		a = x.word_count, b= y.word_count;
+		return a > b ? -1 : a < b ? 1 : 0;
+	});
+}
 // doctype stuff END
 
 /************************************************************************************************/
@@ -196,13 +248,52 @@ function augmentResults(){
 /************************************************************************************************/
 // result augementing END
 
+function yesNo(e){
+	console.log(e)
+	var m = inspectPage();
+	var liked = false;
+	if (e.target.id == 'yes_button'){
+		liked = true;
+	}
+
+	m.summary.push({name: 'liked', value: liked, meta: null});
+	console.log(m);
 
 
-inspectPage();
+	var port = chrome.extension.connect({ name: "inspect-content-port" });
+	port.postMessage(m);
+}
+
+function addYesNo(){
+	var buttonStyle = 'padding: 5px; margin: 8px;'
+	var d = document.createElement("div");
+	var yb = document.createElement("button");
+	yb.setAttribute("style", buttonStyle);
+	yb.textContent = 'yes';
+	yb.id = 'yes_button';
+	yb.onclick = yesNo;
+
+	var nb = document.createElement("button");
+	nb.setAttribute("style", buttonStyle);
+	nb.textContent = 'no';
+	nb.id = 'no_button';
+	nb.onclick = yesNo;
+
+	d.appendChild(yb);
+	d.appendChild(nb);
+	d.setAttribute("style","background: #3559CA; border-radius: 4px; border: 1px solid #ccc; padding: 5px; top: 0px; position: absolute; right: 0px; margin: 10px; z-index: 10000;");
+
+	document.querySelector('body').appendChild(d);
+}
+
+
+addYesNo();
+
+// inspectPage();
 
 chrome.runtime.onMessage.addListener(
 	function(request, sender, sendResponse) {
-		inspectPage();
+		// inspectPage();
 		augmentResults();
 	}
 );

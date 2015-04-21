@@ -25,6 +25,8 @@
     "json-stable-stringify": "^1.0.0",
     "lodash": "3.5.0",
     "machine_learning": "0.0.8",
+    "phantom": "^0.7.2",
+    "phantomjs": "^1.9.16",
     "q": "1.2.0",
     "request": "^2.54.0",
     "x-ray": "^1.0.5"
