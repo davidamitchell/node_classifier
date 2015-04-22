@@ -1,5 +1,5 @@
 chrome.devtools.panels.create(
-	"Yeah",
+	"ux classify",
 	"icons/16x16.png",
 	"devtools/devtoolscontent.html",
 	function(extensionPanel) {

@@ -17,10 +17,17 @@ function inspectPage(){
 		var imagesPartition = partition(images.length, [5,20,100,300]);
 		payload.push({name: 'images', value: images.length, meta: imagesPartition});
 
+		var largest_image = largestImage(document.querySelectorAll("img"));
+		var l_imagePartition = partition(Math.sqrt(largest_image.area), [100,200,500,1000]);
+		payload.push({name: 'main image', value: largest_image.area, meta: JSON.stringify({h: largest_image.height, w: largest_image.width, p: l_imagePartition})});
+
 		var links = document.querySelectorAll("a");
 		var nonLocalLinks = offSiteLinks(links);
 		var nonLocalPartition = partition(nonLocalLinks.length, [5,10,50,100]);
 		payload.push({name: 'off site links', value: nonLocalLinks.length, meta: nonLocalPartition});
+
+		var below_fold = mainContentBelowFold();
+		payload.push({name: 'below fold', value: below_fold, meta: null});
 
 		var scripts = document.querySelectorAll("script");
 		var adUrls = ads(links, scripts);
@@ -32,7 +39,7 @@ function inspectPage(){
 		payload.push({name: 'font family', value: font_info.family, meta: font_info.count});
 
 		var doctype = docType(document.doctype);
-		payload.push({name: 'doctype', value: doctype, meta: null});
+		payload.push({name: 'html5', value: (doctype == 'html5'), meta: null});
 
 		var message = {'summary': payload, 'links': adUrls, 'domain': domain, meta: null}
 		return message;
@@ -89,7 +96,7 @@ function isLocalLink(uri){
 
 /*===============================================================================================*/
 // ad stuff
-var ad_pattern = "doubleclick|adclick|pagead|googleadservices|show_ads|pagefair|viglink|idgtn";
+var ad_pattern = "doubleclick|adclick|pagead|googleadservices|show_ads|pagefair|viglink|idgtn|swiffy";
 
 function ads(links, scripts){
 	var ads = [];
@@ -99,7 +106,7 @@ function ads(links, scripts){
 		}
 	}
 	for(var i = 0; i < scripts.length; i++){
-		// console.log(isAd(scripts[i].src), scripts[i].src);
+		console.log(isAd(scripts[i].src), scripts[i].src);
 		if(isAd(scripts[i].src)) {
 			ads.push(scripts[i].src);
 		}
@@ -129,27 +136,63 @@ function docType(doctype_el){
 }
 
 var is_html5 = function (doctype_el) {
-    if (doctype_el === null || doctype_el === '') return false;
+	if (doctype_el === null || doctype_el === '') {
+		return false;
+	}
 
-    var type = new XMLSerializer().serializeToString(doctype_el);
+	var type = new XMLSerializer().serializeToString(doctype_el);
 
-		var std_html5 = /<!doctype html>/i.test(type);
-		//var alt_html5 = /<!doctype html system "about:legacy-compat">/i.test(type);
+	var std_html5 = /<!doctype html>/i.test(type);
+	//var alt_html5 = /<!doctype html system "about:legacy-compat">/i.test(type);
 
-    return std_html5;// || atl_html5;
+	return std_html5;// || atl_html5;
 };
-
 // doctype stuff END
 
 /*===============================================================================================*/
-// doctype stuff
+// image size stuff
+
+function largestImage(img_els){
+
+  var image_areas = [].map.call(img_els, function(node) {
+    var bounds = node.getBoundingClientRect();
+    return {tag: node.outerHTML, area: bounds.width * bounds.height, height: bounds.height, width: bounds.width};
+  }).sort(function(x, y) {
+    var a = x.area, b= y.area;
+    return a > b ? -1 : a < b ? 1 : 0;
+  });
+
+
+	return image_areas[0];
+}
+// image size stuff END
+
+/*===============================================================================================*/
+// below fold stuff
+
+function mainContentBelowFold(){
+	var below = true;
+	var main_node = scanWordCount(document.querySelectorAll('*'))[0].node;
+	var rect = main_node.getBoundingClientRect();
+	// rect.top, rect.right, rect.bottom, rect.left;
+	below = window.innerHeight < rect.top;
+	return below;
+}
+// below fold stuff END
+
+/*===============================================================================================*/
+// font data stuff
 
 //getFontData(document.querySelectorAll('*'));
 function getFontData(nodes){
+	console.time("getFontData");
+
 	var scaned = scanWordCount(nodes)
 	var node = scaned[0].node
 	var fi = fontInfo(node);
-	fi.count = scaned[0].word_count
+	fi.count = scaned[0].word_count;
+
+	console.timeEnd("getFontData");
 	return fi;
 }
 
@@ -159,8 +202,6 @@ function fontInfo(el){
 	info.family = '';
 	info.size = '';
 	info.node = '';
-
-console.log(el);
 
 	if (el) {
 		styles = window.getComputedStyle(el);
@@ -176,7 +217,7 @@ function scanWordCount(nodes) {
 	var matches, count, clean, a;
 	return [].map.call(nodes, function(node) {
 		count = 0;
-		clean = !/<([A-Z][A-Z0-9]*)\b[^>]*>/i.test(node.innerHTML)
+		clean = !/<([B-OQ-Z][A-Z0-9]*)\b[^>]*>/i.test(node.innerHTML)
 		if (clean && !/script|style|title/i.test(node.tagName) && node.textContent){
 			matches = node.textContent.match(/[^\s]+/g);
 			count = matches == null ? 0 : matches.length;
@@ -187,7 +228,7 @@ function scanWordCount(nodes) {
 		return a > b ? -1 : a < b ? 1 : 0;
 	});
 }
-// doctype stuff END
+// font type stuff END
 
 /************************************************************************************************/
 // page inspection END
@@ -253,16 +294,21 @@ function augmentResults(){
 // result augementing END
 
 function yesNo(e){
-	console.log(e)
 	var m = inspectPage();
 	var liked = false;
 	if (e.target.id == 'yes_button'){
 		liked = true;
+		m.summary.push({name: 'liked', value: liked, meta: null});
+		m.liked = liked;
+	} else if(e.target.id == 'no_button') {
+		liked = false;
+		m.summary.push({name: 'liked', value: liked, meta: null});
+		m.liked = liked;
+	} else if(e.target.id == 'inspect_button') {
+
 	}
 
-	m.summary.push({name: 'liked', value: liked, meta: null});
 	console.log(m);
-
 
 	var port = chrome.extension.connect({ name: "inspect-content-port" });
 	port.postMessage(m);
@@ -271,6 +317,13 @@ function yesNo(e){
 function addYesNo(){
 	var buttonStyle = 'padding: 5px; margin: 8px;'
 	var d = document.createElement("div");
+
+	var ib = document.createElement("button");
+	ib.setAttribute("style", buttonStyle);
+	ib.textContent = 'inspect';
+	ib.id = 'inspect_button';
+	ib.onclick = yesNo;
+
 	var yb = document.createElement("button");
 	yb.setAttribute("style", buttonStyle);
 	yb.textContent = 'yes';
@@ -283,6 +336,7 @@ function addYesNo(){
 	nb.id = 'no_button';
 	nb.onclick = yesNo;
 
+	d.appendChild(ib);
 	d.appendChild(yb);
 	d.appendChild(nb);
 	d.setAttribute("style","background: #3559CA; border-radius: 4px; border: 1px solid #ccc; padding: 5px; top: 0px; position: absolute; right: 0px; margin: 10px; z-index: 99999999;");
@@ -291,7 +345,9 @@ function addYesNo(){
 }
 
 
-addYesNo();
+if(window.location.hostname != 'www.google.co.nz'){
+	addYesNo();
+}
 
 // inspectPage();
 
