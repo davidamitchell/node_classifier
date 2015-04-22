@@ -28,6 +28,7 @@ function logLocalStorage() {
       console.error("Runtime error.");
     } else {
       console.log("gotten", items);
+      console.log(JSON.stringify(items));
     }
   });
 }

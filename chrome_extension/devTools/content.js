@@ -11,25 +11,25 @@ function inspectPage(){
 		payload.push({name: 'domain', value: domain, meta: null});
 
 		var url = window.location.hostname + window.location.pathname;
-		payload.push({name: 'url', value: url, meta: null});
+		// payload.push({name: 'url', value: url, meta: null});
 
 		var images = document.querySelectorAll("img");
 		var imagesPartition = partition(images.length, [5,20,100,300]);
-		payload.push({name: 'images', value: imagesPartition, meta: images.length});
+		payload.push({name: 'images', value: images.length, meta: imagesPartition});
 
 		var links = document.querySelectorAll("a");
 		var nonLocalLinks = offSiteLinks(links);
 		var nonLocalPartition = partition(nonLocalLinks.length, [5,10,50,100]);
-		payload.push({name: 'off site links', value: nonLocalPartition, meta: nonLocalLinks.length});
+		payload.push({name: 'off site links', value: nonLocalLinks.length, meta: nonLocalPartition});
 
 		var scripts = document.querySelectorAll("script");
 		var adUrls = ads(links, scripts);
 		var adsPartition = partition(adUrls.length, [1,5,10,15]);
-		payload.push({name: 'ads', value: adsPartition, meta: adUrls.length});
+		payload.push({name: 'ads', value: adUrls.length, meta: adsPartition});
 
 		var font_info = getFontData(document.querySelectorAll('*'));
-		payload.push({name: 'font size', value: font_info.size, meta: null});
-		payload.push({name: 'font family', value: font_info.family, meta: null});
+		payload.push({name: 'font size', value: font_info.size, meta: font_info.count});
+		payload.push({name: 'font family', value: font_info.family, meta: font_info.count});
 
 		var doctype = docType(document.doctype);
 		payload.push({name: 'doctype', value: doctype, meta: null});
@@ -148,7 +148,9 @@ var is_html5 = function (doctype_el) {
 function getFontData(nodes){
 	var scaned = scanWordCount(nodes)
 	var node = scaned[0].node
-	return fontInfo(node);
+	var fi = fontInfo(node);
+	fi.count = scaned[0].word_count
+	return fi;
 }
 
 function fontInfo(el){
@@ -156,13 +158,15 @@ function fontInfo(el){
 	var info = {};
 	info.family = '';
 	info.size = '';
+	info.node = '';
 
 console.log(el);
 
 	if (el) {
 		styles = window.getComputedStyle(el);
 		info.family = styles.fontFamily;
-		info.size = styles.fontSize;
+		info.size = parseFloat(styles.fontSize.replace('px',''));
+		info.node = el;
 	}
 
 	return info;
@@ -281,7 +285,7 @@ function addYesNo(){
 
 	d.appendChild(yb);
 	d.appendChild(nb);
-	d.setAttribute("style","background: #3559CA; border-radius: 4px; border: 1px solid #ccc; padding: 5px; top: 0px; position: absolute; right: 0px; margin: 10px; z-index: 10000;");
+	d.setAttribute("style","background: #3559CA; border-radius: 4px; border: 1px solid #ccc; padding: 5px; top: 0px; position: absolute; right: 0px; margin: 10px; z-index: 99999999;");
 
 	document.querySelector('body').appendChild(d);
 }
